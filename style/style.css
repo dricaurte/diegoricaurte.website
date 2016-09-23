@@ -1,0 +1,263 @@
+/*
+* @project: One - Flat Theme;
+* @author: 	SF Theme;
+*/
+/*------------------------------------------------------------------
+[Color Codes]
+Dark Green: #00331a;
+Light Green: #004d28;
+Dark Grey: #363b3f;
+Dark Grey 2: #b6b7b7;
+Social Buttons: #444749;
+Light Grey: #f7f8f8;
+Bubbles:#BFBFBF;
+White: #ffffff;
+Black: #000000;
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Welcome
+2. Navbar
+3. About 
+4. Skills 
+5. Work Experience 
+6. Portfolio 
+7. Contact
+8. Footer
+-------------------------------------------------------------------*/
+
+body { color: #363b3f; background: #f7f8f8; }
+
+.section { padding: 30px 0 50px 0px; }
+.section h1, .section h2, .section h3, .section h4 { font-family: "Lato", sans-serif; font-weight: 700; color: black; }
+.section p { font-family: "Lato", sans-serif; font-weight: 400; font-size: 15px; line-height: 24px; }
+.section .heading { text-align: center; padding-bottom: 40px; }
+.section .profilePic { text-align: center; margin: 0 auto; float: none; }
+.section .divider { width: 100px; height: 1px; background: #004d28; margin: 0 auto; }
+section.colored .divider{background: white;}
+section.colored h1, section.colored h2, section.colored h3, section.colored h4, section.colored p { color: white; }
+
+.btn, .filter a { font-family: "Lato", sans-serif; font-weight: 400; font-size: 14px; text-decoration: none; background: white; color: #b6b7b7; border: 1px solid #b6b7b7; padding: 18px; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
+.btn:hover, .filter a:hover, .btn:focus, .filter a:focus { background-color: #004d28; border-color: #004d28; color: white; }
+
+.borderBtn, .contactform button { font-family: "Lato", sans-serif; font-weight: 700; font-size: 14px; text-decoration: none; color: white; border: 1px solid white; padding: 18px 50px 18px 50px; display: inline-block; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
+.borderBtn:hover, .contactform button:hover, .borderBtn:focus, .contactform button:focus { background-color: white; color: #004d28; text-decoration: none; }
+
+section .centered { margin: 0 auto; float: none; }
+
+.hidethis { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 0 ")"; filter: alpha(opacity=0); opacity: 0; }
+
+.loader { width: 100%; height: 100%; background: white; position: fixed; top: 0px; left: 0px; z-index: 1000; }
+
+
+/*------------------------------------------------------------------
+[1. Welcome]
+-------------------------------------------------------------------*/
+.overlay { width: 100%; height: 100%; position: absolute; z-index: 3; background: url(../images/overlay.png); }
+
+.welcome-message { position: absolute; width: 100%; height: 250px; top: 50%; margin-top: -125px; z-index: 10; text-align: center; }
+.welcome-message .heading { padding: 18px 0px; }
+.welcome-message p { font-family: "Lato", sans-serif; font-size: 55px; color: white; -webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); -moz-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); -o-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
+.welcome-message p.small { font-family: "Lato", sans-serif; font-size: 24px; color: white; }
+.welcome-message .borderBtn, .welcome-message .contactform button, .contactform .welcome-message button { -webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); -moz-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); -o-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
+.welcome-message .borderBtn:hover, .welcome-message .contactform button:hover, .contactform .welcome-message button:hover { -webkit-text-shadow: 0px 2px 5px transparent; -moz-text-shadow: 0px 2px 5px transparent; -o-text-shadow: 0px 2px 5px transparent; -ms-text-shadow: 0px 2px 5px transparent; text-shadow: 0px 2px 5px transparent; }
+
+.welcome-message .borderBtn { position: relative; top: 250px;}
+/*------------------------------------------------------------------
+[2. Navbar]
+-------------------------------------------------------------------*/
+.navbar-flat { background: #004d28; margin-bottom: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
+.navbar-flat .navbar-collapse { text-align: center; }
+.navbar-flat .navbar-toggle .icon-bar { background: white; }
+.navbar-flat ul { float: none; }
+.navbar-flat li { display: inline-block; float: none; }
+.navbar-flat li a:hover { background: #00331a; color: white; }
+.navbar-flat li a:focus { background: #00331a; color: white; }
+.navbar-flat li.active a { background: #00331a; color: white; }
+.navbar-flat a { font-family: "Lato", sans-serif; font-weight: 700; color: #f7f8f8; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
+.navbar-flat .navbar-brand { display: none; }
+
+/*------------------------------------------------------------------
+[3. About]
+-------------------------------------------------------------------*/
+.hero { background: #004d28; color: white; }
+.hero .borderBtn, .hero .contactform button, .contactform .hero button { margin-top: 20px; }
+.hero h3 { color: #f7f8f8 !important; }
+
+.firstSec { padding-top: 30px; }
+
+.firstSec.fixed { padding-top: 80px; }
+
+.services .services-inner {margin-top: 20px; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
+.services .heading {padding:15px;}
+.service { border: 1px solid #e3e5e5; padding-top: 50px; padding-bottom: 50px; text-align: center; color: #004d28; margin-left: -1px; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
+.service h3 { color: black; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
+.service i { width: 51px; height: 45px; margin: 0 auto; display: block; background: url(../images/icons.svg) no-repeat; -webkit-transition: all 0.3s ease-in, 0s; -moz-transition: all 0.3s ease-in, 0s; -o-transition: all 0.3s ease-in, 0s; -ms-transition: all 0.3s ease-in, 0s; transition: all 0.3s ease-in, 0s; }
+.service .screen { background-position: left top; }
+.service .heart { background-position: -51px top; }
+.service .tag { background-position: -102px top; }
+.service .camera { background-position: -152px top; }
+.service:hover, .service:focus { background-color: #004d28; border-color: #004d28; color: white; }
+.service:hover h3, .service:focus h3 { color: white; }
+.service:hover .screen, .service:focus .screen { background-position: left bottom; }
+.service:hover .heart, .service:focus .heart { background-position: -51px bottom; }
+.service:hover .tag, .service:focus .tag { background-position: -103px bottom; }
+.service:hover .camera, .service:focus .camera { background-position: -152px bottom; }
+
+
+/*------------------------------------------------------------------
+[4. Skills]
+-------------------------------------------------------------------*/
+section.skills {max-width: none; background: #004d28; }
+section.skills h4 { color: white !important; }
+
+.skill { margin: 0 auto 20px auto; float: none; text-align: center; }
+
+.chart { position: relative; width: 152px; height: 152px; display: inline-block; margin: 0 0 25px 0px; text-align: center; }
+.chart canvas { position: absolute; left: 0px; top: 0px; }
+.chart .percent { font-family: "Lato", sans-serif; color: white; line-height: 152px; display: inline-block; font-size: 35px; }
+.chart .percent:after { content: '%'; }
+
+/*------------------------------------------------------------------
+[6. Index Portfolio]
+-------------------------------------------------------------------*/
+.index .thumbnail {
+    border: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.index .thumb {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.index .caption h4 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+.index .thumbnail:hover h4 {
+  color: white; 
+  text-decoration: none;
+}
+
+.index .thumbnail:hover {
+  background: #004d28;
+
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+/*------------------------------------------------------------------
+[7. Contact]
+-------------------------------------------------------------------*/
+section.contact .details { text-align: center; padding: 0 0 30px 0px; }
+section.contact .details p { font-family: "Lato", sans-serif; font-size: 30px; font-weight: 300; }
+section.contact .details p.bigger { font-size: 40px; font-weight: 700; margin-top: 20px; }
+
+.contactform input, .contactform textarea { border: 1px solid #b6b7b7; color: #363b3f; background: none; padding: 15px 30px; margin: 0 3% 20px 0px; resize: none; }
+.contactform .error, .contactform .form-error { border-color: #00331a !important; }
+.contactform .no-margin { margin-right: 0px; }
+.contactform input.col-lg-6 { width: 48.5%; }
+.contactform button { background: #004d28; }
+.contactform button:hover, .contactform button:focus { border-color: #004d28; }
+.contactform p { text-align: center; }
+
+.form a { color: white; }
+
+#map { float: left; width: 100%; height: 390px; border-top: 4px solid #004d28; }
+
+/*------------------------------------------------------------------
+[8. Footer]
+-------------------------------------------------------------------*/
+footer { background: #363b3f; }
+footer p { font-size: 12px; color: white; text-align: center; }
+footer ul { width: 100%; text-align: center; margin-top: 20px; }
+footer li { display: inline-block; margin: 0 4px; }
+footer li a { display: block; text-decoration: none; border-bottom: none; padding: 18px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
+footer .facebook { background: url(../images/ff.png) center no-repeat #444749; }
+footer .facebook:hover { background-color: #4265b9; }
+footer .youtube { background: url(../images/youtube.png) center no-repeat #444749; }
+footer .youtube:hover { background-color: #df3333; }
+footer .dribbble { background: url(../images/dribbble.png) center no-repeat #444749; }
+footer .dribbble:hover { background-color: #e94c89; }
+footer .behance { background: url(../images/behance.png) center no-repeat #444749; }
+footer .behance:hover { background-color: #3fbff0; }
+footer .instagram { background: url(../images/igram.png) center no-repeat #444749; }
+footer .instagram:hover { background-color: #956751; }
+footer .linkedin { background: url(../images/ll.png) center no-repeat #444749; }
+footer .linkedin:hover { background-color: #0073b2; }
+
+/*------------------------------------------------------------------
+[9. Portfolio Item]
+-------------------------------------------------------------------*/
+
+.portfolioitemheader{ 
+background: #004d28;
+padding: 0px;
+}
+
+.portfolio-signature-container{
+  padding-top: 30px;
+  width: 250px;
+  padding-bottom: 30px;
+}
+.portfolio-signature {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.portfoliobodytitle h2 {
+  margin: 0px;
+}
+
+/*------------------------------------------------------------------
+[10. Miscellaneous]
+-------------------------------------------------------------------*/
+
+img { max-width: 100%; height: auto; }
+
+.clear { clear: both; }
+
+::selection { background-color: #004d28; color: white; }
+
+::-moz-selection { background-color: #004d28; color: white; }
+
+input, textarea { -webkit-appearance: none; }
+
+/* OWL */
+.owl-theme .owl-controls .owl-page span { background: white; }
+
+/* CSS Keyframe Animations */
+.animated { -webkit-animation-fill-mode: both; -moz-animation-fill-mode: both; -ms-animation-fill-mode: both; -o-animation-fill-mode: both; animation-fill-mode: both; -moz-animation-timing-function: ease-in-out; -webkit-animation-duration: 1s; -moz-animation-duration: 1s; -ms-animation-duration: 1s; -o-animation-duration: 1s; animation-duration: 1s; }
+
+@-webkit-keyframes fadeInUp { 0% { opacity: 0; -webkit-transform: translateY(20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); } }
+@-moz-keyframes fadeInUp { 0% { opacity: 0; -moz-transform: translateY(20px); }
+  100% { opacity: 1; -moz-transform: translateY(0); } }
+@-o-keyframes fadeInUp { 0% { opacity: 0; -o-transform: translateY(20px); }
+  100% { opacity: 1; -o-transform: translateY(0); } }
+@keyframes fadeInUp { 0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); } }
+.fadeInUp { -webkit-animation-name: fadeInUp; -moz-animation-name: fadeInUp; -o-animation-name: fadeInUp; animation-name: fadeInUp; }
+
+@media only screen and (max-width: 768px) { .navbar-flat li { display: inline-block; } }
+@media only screen and (max-width: 765px) { .navbar-brand { display: block !important; }
+  .navbar-flat li { display: inline; }
+  .timeline { background-position: 38px top; }
+  .timeline li, .timeline .odd { margin: 0px 0 20px 43px; width: 85%; }
+  .timeline .point, .timeline .odd .point { left: -32px; right: auto; }
+  .timeline .timestamp, .timeline .bubble { float: left; }
+  .timeline .bubble, .timeline .odd .bubble { margin: 0px 0 0 30px; width: 80%; padding: 22px 30px 25px 32px; }
+  .timeline .bubble-arrow { background-position: right top; left: -10px; right: auto; } }
