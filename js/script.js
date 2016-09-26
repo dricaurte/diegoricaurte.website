@@ -16,10 +16,6 @@ $(document).ready(function(){
 		$('html, body').animate({ scrollTop: scrollTo - 50 }, "slow");
 	});
 
-	// Slides
-	$('#slides').superslides({
-	});
-
 	// Skills
 	var owl = $("#skills-slide");
 	owl.owlCarousel({
