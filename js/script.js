@@ -1,10 +1,12 @@
-jQuery(window).load(function(){
-	'use strict';
-	// Loader
-	$('.loader .inner').fadeOut(750, function(){
-		$('.loader').fadeOut(750);
-	});
-});
+// Loader
+$(document).ready(function() {
+   window.setTimeout("loaderfade();", 1000); //call fade in 3 seconds
+ }
+)
+
+function loaderfade() {
+   $(".loader").fadeOut('slow');
+}
 
 $(document).ready(function(){
 	'use strict';
