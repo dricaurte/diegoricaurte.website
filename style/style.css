@@ -27,8 +27,10 @@ Black: #000000;
 8. Footer
 -------------------------------------------------------------------*/
 
-body { color: #363b3f; 
+html, body { color: #363b3f; 
   background: #f7f8f8; 
+  overflow-x: hidden; 
+
 }
 
 .section { 
@@ -293,6 +295,10 @@ border-radius: 0px;
 .hero { 
   background: #004d28; 
   color: white; 
+}
+
+.blurb {
+  padding: 5px;
 }
 
 .hero .borderBtn, .hero .contactform button, .contactform .hero button { 
