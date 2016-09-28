@@ -1,6 +1,6 @@
 // Loader
 $(document).ready(function() {
-   window.setTimeout("loaderfade();", 1000); //call fade in 3 seconds
+   window.setTimeout("loaderfade();", 500); 
  }
 )
 
