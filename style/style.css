@@ -223,6 +223,8 @@ section .centered {
   color: #f8f8f8;
   background: url(../images/splashbackground.jpg) no-repeat center center;
   background-size: cover; 
+  min-height:100%;
+  min-width:100%;
   }
 
 .indexsignature{
