@@ -1,33 +1,7 @@
 <!DOCTYPE html>
 <html> 
 <head>
-  <title>Diego Ricaurte Design</title>
-<!--Metatags-->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
-<!--Metatags-->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-<!--Styles-->
-  <link href="style/reset.css" rel="stylesheet" type="text/css" />
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-  <link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="style/jquery.fs.boxer.css" rel="stylesheet" type="text/css" />
-  <link href="style/owl.carousel.css" rel="stylesheet" type="text/css" />
-  <link href="style/style.css" rel="stylesheet" type="text/css" />
-<!--Styles-->
-<!--Scripts-->  
-  <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-  <script src="js/modernizr-2.6.2.min.js" type="text/javascript"></script>
-<!--Scripts-->
-<!--[if lt IE 9]>
-  <script src="js/html5.js"></script>
-<![endif]-->
-<!--[if IE]>
-  <style>
-    .timeline li{display:block; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1;}
-  </style>
-<![endif]-->
+   <?php include 'resources/head.php';?>
 </head>
 <body data-spy="scroll" data-target=".navbar-flat" data-offset="55">
 	<!--Loader-->
@@ -210,7 +184,7 @@
 					<h2>PORTFOLIO</h2>
 				</div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="the-key-elements-spread.html">
+	                <a class="index thumbnail" href="the-key-elements-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/thekeyelements.png" alt="">
 		                <div class = "index caption">
 		         			<h4>The Key Elements</h4>
@@ -218,7 +192,7 @@
 	                </a>
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="atom-family-spread.html">
+	                <a class="index thumbnail" href="atom-family-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/atomfamily.png" alt="">
 	                	<div class = "index caption">
 	         				<h4>Atom Family</h4>
@@ -226,7 +200,7 @@
 	                </a>
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="agv-sport-spread.html">
+	                <a class="index thumbnail" href="agv-sport-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/agvsport.png" alt="">
 	                	<div class = "index caption">
 	         				<h4>AGV Sport</h4>
@@ -234,7 +208,7 @@
 	                </a>
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="dr-design-spread.html">
+	                <a class="index thumbnail" href="dr-design-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/drdesign.png" alt="">
 		                <div class = "index caption">
 		         			<h4>DR Design</h4>
@@ -242,7 +216,7 @@
 	                </a>
 	            </div>
    				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="tournament-of-heroes-spread.html">
+	                <a class="index thumbnail" href="tournament-of-heroes-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/tournamentofheroes.png"  alt="">
 		                <div class = "index caption">
 		         			<h4>Tournament Of Heroes</h4>
@@ -250,7 +224,7 @@
 	                </a>
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="hard-rock-cafe-baltimore-spread.html">
+	                <a class="index thumbnail" href="hard-rock-cafe-baltimore-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/hardrockcafebaltimore.png" alt="">
 		                <div class = "index caption">
 		         			<h4>Hard Rock Cafe Baltimore</h4>
@@ -258,7 +232,7 @@
 	                </a>
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="wake-will-spread.html">
+	                <a class="index thumbnail" href="wake-will-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/wakewill.png" alt="">
 		                <div class = "index caption">
 		         			<h4>Wake Will</h4>
@@ -266,7 +240,7 @@
 	                </a>
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
-	                <a class="index thumbnail" href="arms-race-spread.html">
+	                <a class="index thumbnail" href="arms-race-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/armsrace.png" alt="">
 	                <div class = "index caption">
 	         			<h4>Arms Race</h4>
@@ -300,21 +274,7 @@
 	</section> -->
 	<!--Contact Section-->
 	<!--Footer Section-->
-	<footer class="section">
-		<div class="container">
-			<div class="row">
-				<p>&copy; 2016 diegoricaurte.website. All Rights Reserved.</p>
-				<ul>
-					<li><a target="_blank" class="facebook" href="https://www.facebook.com/diegoricaurtedesign/"></a></li>
-					<li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/diego-ricaurte-91b41563/"></a></li>
-					<li><a target="_blank" class="instagram" href="https://www.instagram.com/ricaurteda/"></a></li>
-					<!-- <li><a target="_blank" class="youtube" href="https://www.youtube.com/"></a></li> -->
-					<!-- <li><a target="_blank" class="dribbble" href="https://dribbble.com/diegoricaurte/"></a></li> -->
-					<li><a target="_blank" class="behance" href="https://www.behance.net/"></a></li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+  	<?php include 'resources/footer.php';?>
 	<!--Footer Section-->
 <!--Scripts-->	
 	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
