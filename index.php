@@ -81,7 +81,7 @@
 				<div class="heading">
 					<h2>PORTFOLIO</h2>
 				</div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="the-key-elements-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/thekeyelements.png" alt="">
 		                <div class = "index caption">
@@ -89,7 +89,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="atom-family-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/atomfamily.png" alt="">
 	                	<div class = "index caption">
@@ -97,7 +97,7 @@
 	         			</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="agv-sport-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/agvsport.png" alt="">
 	                	<div class = "index caption">
@@ -105,7 +105,7 @@
 	         			</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="dr-design-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/drdesign.png" alt="">
 		                <div class = "index caption">
@@ -113,7 +113,7 @@
 		         		</div>
 	                </a>
 	            </div>
-   				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+   				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="tournament-of-heroes-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/tournamentofheroes.png"  alt="">
 		                <div class = "index caption">
@@ -121,15 +121,15 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="hard-rock-cafe-baltimore-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/hardrockcafebaltimore.png" alt="">
 		                <div class = "index caption">
-		         			<h4>Hard Rock Cafe Baltimore</h4>
+		         			<h4>Hard Rock Cafe</h4>
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="wake-will-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/wakewill.png" alt="">
 		                <div class = "index caption">
@@ -137,11 +137,27 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
 	                <a class="index thumbnail" href="arms-race-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/armsrace.png" alt="">
 	                <div class = "index caption">
 	         			<h4>Arms Race</h4>
+	         		</div>
+	                </a>
+	            </div>
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	                <a class="index thumbnail" href="gtech-designs-spread.php">
+	                    <img class="img-responsive" src="images/portfolio-thumbs/gtech.png" alt="">
+	                <div class = "index caption">
+	         			<h4>Gtech Designs</h4>
+	         		</div>
+	                </a>
+	            </div>
+	             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	                <a class="index thumbnail" href="photography-spread.php">
+	                    <img class="img-responsive" src="images/portfolio-thumbs/photography.png" alt="">
+	                <div class = "index caption">
+	         			<h4>Photography</h4>
 	         		</div>
 	                </a>
 	            </div>
@@ -276,7 +292,7 @@
 	<!--Footer Section-->
   	<?php include 'resources/footer.php';?>
 	<!--Footer Section-->
-<!--Scripts-->	
+	<!--Scripts-->	
 	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -284,6 +300,6 @@
 	<script src="js/owl.carousel.min.js" type="text/javascript"></script>
 	<script src="js/jquery.inview.min.js" type="text/javascript"></script>
 	<script src="js/script.js" type="text/javascript"></script>
-<!--Scripts-->
+	<!--Scripts-->
 </body>
 </html>
