@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>AGV SPORT</h2>
             <h4> Icons / Brand / Product / Print <h4> 
             <p> AGV Sports group is a company that makes gear for bike riders. During the internship there, my primary project was designing the new line of "hang tags" that will be attached to new products in 2014. The project involved creating approximately 75 tags for all lines of riding products. Each tag required individualized text and icons. Additional tags were also designed for a separate group of "Kevlar-reinforced" products.  <p> 

@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2> Arms Race </h2>
             <h4> Illustration / Print <h4> 
             <p>This work was inspired by the events of the Cold War, which was, in many ways, the culminations of the end of the world's

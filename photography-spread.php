@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>Photography</h2>
             <h4> Freelance <h4> 
             <p> Initially a craft learned in order to document my work, photography has become one of my favorite passtimes. It forces

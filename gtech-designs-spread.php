@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>Gtech Designs</h2>
             <h4> Brand / Print / Web <h4> 
             <p> During my semester off, I was offered the opportunity to work with Gtech Designs in Baltimore and was able to gain experience in to the culture of a burgeoning startup. 

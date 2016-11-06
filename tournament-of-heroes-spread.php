@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>Tournament of Heroes</h2>
             <h4> Illustration / Print <h4> 
             <p>This poster was inspired by an episode of the television show "Teen Titans" entitled "Winner Take All". In this

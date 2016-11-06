@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>Wake Will</h2>
             <h4> Brand / Photography / Event / Illustration <h4> 
             <p> During my time as a graphic design intern at Feats Inc., I had the chance to design materials for the 2013 Campaign for Wake Forest, the largest campaign in the University's history. The materials created for this event were used on Wake Forests Nationwide tour under the Wake Will campaign brand.

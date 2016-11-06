@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>Atom Family</h2>
             <h4> Illustration / Print <h4> 
             <p> My father, a neurologist at Johns Hopkins University, is the center of my family dynamic. I thought the atom

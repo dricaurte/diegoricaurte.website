@@ -73,38 +73,4 @@ $(document).ready(function(){
 			});
 		}
 	});
-
-	// Form Validation
-	$.validate({
-		form:'.contactform',
-		borderColorOnError : '#c12728',
-		scrollToTopOnError : false,
-		validateOnBlur : false,
-		onError:function() {
-			//alert('Validation failed');
-		},
-		onSuccess:function(){
-			$('.sendcontact').prop("disabled",true);
-			$('p.error').html('Your message sent.');
-			var name		= $("form[name=contactform] input[name='send[name]']").val(),
-				email		= $("form[name=contactform] input[name='send[email]']").val(),
-				message		= $("form[name=contactform] textarea[name='send[message]']").val();
-
-			$.ajax({
-				url: '/send.php',
-				type: 'POST',
-				data: {type: 'contact', name : name, email : email, message : message},
-				dataType: 'json',
-				success: function(data)
-				{
-					$('.sendcontact').prop("disabled",true);
-					$('p.error').html('Your message sent.');
-				},
-				error: function(){
-					$("#xhr").removeClass('xhr');
-				}
-			});
-		}
-	});
-
 });

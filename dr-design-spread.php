@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>DR Design</h2>
             <h4> Brand / Icons / Illustration / Website <h4> 
             <p> DR Design is the first iteration of my design brand. It uses a flat, modern, minimalistic style with a focus on outlines. When deciding

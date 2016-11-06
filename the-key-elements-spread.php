@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>The Key Elements</h2>
             <h4> Brand / Print / Cothing / Illustration <h4> 
             <p> During my time at Cornell University, I was a member of The Key Elements co-ed a cappella group. Soon after joining,

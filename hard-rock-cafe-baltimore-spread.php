@@ -5,11 +5,11 @@
 </head>
 <body>
   <?php include 'resources/portfolioitemheader.php';?>
-  <section class="portfollioitembody section">
+  <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <div class="portfoliobodytitle heading">
+          <div class="portfolioitemtext heading">
             <h2>Hard Rock Cafe Baltimore: Grand Opening</h2>
             <h4> Print / Event / Photography <h4> 
             <p> During my time with Feats Inc., I had the chance to help design materials for the Grand Opening of the new Hard Rock Cafe in Baltimore, headlined by Imagine Dragons.
