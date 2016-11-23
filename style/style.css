@@ -121,7 +121,7 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
   transition: all 0.3s ease-in, 0s; 
 }
 
-.borderBtn:hover, .borderBtn:focus, { 
+.borderBtn:hover, .borderBtn:focus, button:hover, button:focus { 
   background-color: white; 
   color: #004d28; 
   text-decoration: none; 
