@@ -72,6 +72,108 @@
 		</div>
 	</section>
 	<!--Resume Section-->
+	<!--Services Section-->
+    <section class="services section" id="about">
+		<div class="container">
+			<div class= "row">
+				<div class="divider"></div>
+				<div class="heading">
+					<h2>WHO I AM AND WHAT I DO</h2>
+					<p>I create logical solutions for my clients </p>
+				</div>
+				<div class="blurb">
+					<p>My name is Diego Ricaurte, and I am a graphic and web designer from Ellicott City, Maryland. I am passionate about design that 
+					is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously
+					seemed impossible. I enjoy learning new skills and have a steep learning curve. I love working with others to create the best possible product, and I take pride 
+					in my ability to adapt to any setting with any team. With a little help from a cup of coffee, I believe a positive attitude and rigorous work ethic can
+					move worlds.
+					</p>
+				</div>
+				<div class="services-inner hidethis">
+					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<p class="icon"><i class="screen"></i></p>
+						<h3>WEB DESIGN</h3>
+					</div> 
+					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<p class="icon"><i class="heart"></i></p>
+						<h3>UX/UI DESIGN</h3>
+					</div> 
+					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<p class="icon"><i class="tag"></i></p>
+						<h3>BRANDING</h3>
+					</div> 
+					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<p class="icon"><i class="camera"></i></p>
+						<h3>PHOTOGRAPHY</h3>
+					</div> 
+				</div>
+			<div class= "row">
+		</div>
+	</section>
+	<!--Services Section-->
+	<!--Skills Section-->
+	<section class="skills section colored" id="skills">
+		<div class="container">
+			<div class= "row">
+				<div class="divider" id"skills"></div>
+				<div class="heading">
+					<h2>TECHNICAL SKILLS</h2>
+				</div>
+				<div id="skills-slide">
+					<!--Skills Items-->
+					<div class="skill">
+						<span class="chart" data-percent="70">
+							<span class="percent"></span>
+						</span>
+						<h4>PHOTOSHOP</h4>
+					</div>
+					<div class="skill">
+						<span class="chart" data-percent="95">
+							<span class="percent"></span>
+						</span>
+						<h4>ILLUSTRATOR</h4>
+					</div>
+					<div class="skill">
+						<span class="chart" data-percent="75">
+							<span class="percent"></span>
+						</span>
+						<h4>INDESIGN</h4>
+					</div>
+					<div class="skill">
+						<span class="chart" data-percent="85">
+							<span class="percent"></span>
+						</span>
+						<h4>HTML5</h4>
+					</div>
+					<div class="skill">
+						<span class="chart" data-percent="80">
+							<span class="percent"></span>
+						</span>
+						<h4>CSS</h4>
+					</div>
+					<div class="skill">
+						<span class="chart" data-percent="65">
+							<span class="percent"></span>
+						</span>
+						<h4>PHP</h4>
+					</div>
+					<div class="skill">
+						<span class="chart" data-percent="55">
+							<span class="percent"></span>
+						</span>
+						<h4>MYSQL</h4>
+					</div>
+					<div class="skill">
+						<span class="chart" data-percent="70">
+							<span class="percent"></span>
+						</span>
+						<h4>JQUERY</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Skills Section-->
 	<!--Portfolio Section-->
 	<section class="portfolio section" id="portfolio">
 		<div class="container">
@@ -164,108 +266,6 @@
 	   	</div>
     </section> 
     <!-- End of Portfolio Section --> 
-	<!--Skills Section-->
-	<section class="skills section colored" id="skills">
-		<div class="container">
-			<div class= "row">
-				<div class="divider" id"skills"></div>
-				<div class="heading">
-					<h2>TECHNICAL SKILLS</h2>
-				</div>
-				<div id="skills-slide">
-					<!--Skills Items-->
-					<div class="skill">
-						<span class="chart" data-percent="70">
-							<span class="percent"></span>
-						</span>
-						<h4>PHOTOSHOP</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="95">
-							<span class="percent"></span>
-						</span>
-						<h4>ILLUSTRATOR</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="75">
-							<span class="percent"></span>
-						</span>
-						<h4>INDESIGN</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="85">
-							<span class="percent"></span>
-						</span>
-						<h4>HTML5</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="80">
-							<span class="percent"></span>
-						</span>
-						<h4>CSS</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="65">
-							<span class="percent"></span>
-						</span>
-						<h4>PHP</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="55">
-							<span class="percent"></span>
-						</span>
-						<h4>MYSQL</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="70">
-							<span class="percent"></span>
-						</span>
-						<h4>JQUERY</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--Skills Section-->
-	<!--Services Section-->
-    <section class="services section" id="about">
-		<div class="container">
-			<div class= "row">
-				<div class="divider"></div>
-				<div class="heading">
-					<h2>WHO I AM AND WHAT I DO</h2>
-					<p>I create logical solutions for my clients </p>
-				</div>
-				<div class="blurb">
-					<p>My name is Diego Ricaurte, and I am a graphic and web designer from Ellicott City, Maryland. I am passionate about design that 
-					is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously
-					seemed impossible. I enjoy learning new skills and have a steep learning curve. I love working with others to create the best possible product, and I take pride 
-					in my ability to adapt to any setting with any team. With a little help from a cup of coffee, I believe a positive attitude and rigorous work ethic can
-					move worlds.
-					</p>
-				</div>
-				<div class="services-inner hidethis">
-					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<p class="icon"><i class="screen"></i></p>
-						<h3>WEB DESIGN</h3>
-					</div> 
-					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<p class="icon"><i class="heart"></i></p>
-						<h3>UX/UI DESIGN</h3>
-					</div> 
-					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<p class="icon"><i class="tag"></i></p>
-						<h3>BRANDING</h3>
-					</div> 
-					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<p class="icon"><i class="camera"></i></p>
-						<h3>PHOTOGRAPHY</h3>
-					</div> 
-				</div>
-			<div class= "row">
-		</div>
-	</section>
-	<!--Services Section-->
 	<!--Footer Section-->
   	<?php include 'resources/footer.php';?>
 	<!--Footer Section-->
