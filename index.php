@@ -122,7 +122,7 @@
 				<div id="skills-slide">
 					<!--Skills Items-->
 					<div class="skill">
-						<span class="chart" data-percent="70">
+						<span class="chart" data-percent="91">
 							<span class="percent"></span>
 						</span>
 						<h4>PHOTOSHOP</h4>
@@ -134,7 +134,7 @@
 						<h4>ILLUSTRATOR</h4>
 					</div>
 					<div class="skill">
-						<span class="chart" data-percent="75">
+						<span class="chart" data-percent="92">
 							<span class="percent"></span>
 						</span>
 						<h4>INDESIGN</h4>

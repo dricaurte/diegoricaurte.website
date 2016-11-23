@@ -100,7 +100,7 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
   color: white; 
 }
 
-.borderBtn, button { 
+.borderBtn { 
   font-family: "Lato", sans-serif; 
   font-weight: 700; 
   font-size: 14px; 
@@ -121,7 +121,7 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
   transition: all 0.3s ease-in, 0s; 
 }
 
-.borderBtn:hover, .borderBtn:focus, button:hover, button:focus { 
+.borderBtn:hover, .borderBtn:focus { 
   background-color: white; 
   color: #004d28; 
   text-decoration: none; 
@@ -161,57 +161,6 @@ section .centered {
   background: url(../images/overlay.png); 
 }
 
-.welcome-message { 
-  position: absolute; 
-  width: 100%; 
-  height: 250px; 
-  top: 50%; 
-  margin-top: -125px; 
-  z-index: 10; 
-  text-align: center; 
-}
-
-.welcome-message .heading { 
-  padding: 18px 0px; 
-}
-
-.welcome-message p { 
-  font-family: "Lato", sans-serif; 
-  font-size: 55px; 
-  color: white; 
-  -webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  -moz-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  -o-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-}
-
-.welcome-message p.small { 
-  font-family: "Lato", sans-serif; 
-  font-size: 24px; 
-  color: white; 
-}
-
-.welcome-message .borderBtn, .welcome-message , .welcome-message button { 
-  -webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  -moz-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  -o-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
-}
-.welcome-message .borderBtn:hover, .welcome-message :hover, .welcome-message button:hover { 
-  -webkit-text-shadow: 0px 2px 5px transparent; 
-  -moz-text-shadow: 0px 2px 5px transparent; 
-  -o-text-shadow: 0px 2px 5px transparent; 
-  -ms-text-shadow: 0px 2px 5px transparent; 
-  text-shadow: 0px 2px 5px transparent; 
-}
-
-.welcome-message .borderBtn { 
-  position: relative; 
-  top: 250px;
-}
-
 .intromessage {
   position: relative;
   padding-top: 10%;
@@ -232,7 +181,6 @@ section .centered {
 display:block;
 
 }
-
 
 /*------------------------------------------------------------------
 [2. Navbar]
