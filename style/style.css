@@ -330,7 +330,11 @@ border-radius: 0px;
 }
 
 .service .camera { 
-  background-position: -152px top; 
+  background-position: -153px top; 
+}
+
+.service .pen { 
+  background-position: -204px top; 
 }
 
 .service:hover, .service:focus { 
@@ -356,8 +360,13 @@ border-radius: 0px;
 }
 
 .service:hover .camera, .service:focus .camera { 
-  background-position: -152px bottom; 
+  background-position: -153px bottom; 
 }
+
+.service:hover .pen, .service:focus .pen { 
+  background-position: -204px bottom; 
+}
+
 
 
 /*------------------------------------------------------------------

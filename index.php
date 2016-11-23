@@ -95,8 +95,8 @@
 						<h3>WEB DESIGN</h3>
 					</div> 
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<p class="icon"><i class="heart"></i></p>
-						<h3>UX/UI DESIGN</h3>
+						<p class="icon"><i class="pen"></i></p>
+						<h3>GRAPHIC DESIGN</h3>
 					</div> 
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="tag"></i></p>
