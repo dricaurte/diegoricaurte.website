@@ -13,7 +13,7 @@
 			<div class= "row">
 				<div class="col-xs-12">
 					<div>
-						<img src="images/indexsignature.png" class="indexsignature centered img-responsive">
+						<img src="images/signature.svg" class="indexsignature centered img-responsive">
 					</div>
 				</div>
 			</div>
