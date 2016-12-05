@@ -8,19 +8,22 @@
 	<div class="loader">
 	</div>
 	<!--Loader-->
-	<section class="splashimage" id="welcome">
-		<div class="container intromessage">
-			<div class= "row">
-				<div class="col-xs-12">
-					<div>
-						<img src="images/signature.svg" class="indexsignature centered img-responsive">
+	<section id= "welcome">
+		<div class="splashimage">
+			<div class="overlay"></div>
+			<div class="container intromessage">
+				<div class= "row">
+					<div class="col-xs-12">
+						<div>
+							<img src="images/signature.svg" class="indexsignature centered img-responsive">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class= "row">
-				<div class="col-xs-12">
-					<div>
-						<a href="#resume" class="borderBtn scrollto">MORE ABOUT ME</a>
+				<div class= "row">
+					<div class="col-xs-12">
+						<div>
+							<a href="#resume" class="borderBtn scrollto">MORE ABOUT ME</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -65,7 +68,7 @@
 				</div>
 				<div class="heading">
 					<h1>DIEGO RICAURTE</h1>
-					<h3>Graphic and Web Designer</h3>
+					<h3>Graphic and Digital Designer</h3>
 					<a href="files/resume.pdf" class="borderBtn">DOWNLOAD RESUME</a>
 				</div>
 			</div>
@@ -82,7 +85,7 @@
 					<p>I create logical solutions for my clients </p>
 				</div>
 				<div class="blurb">
-					<p>My name is Diego Ricaurte, and I am a graphic and web designer from Ellicott City, Maryland. I am passionate about design that 
+					<p>My name is Diego Ricaurte, and I am a graphic and digital designer from Ellicott City, Maryland. I am passionate about design that 
 					is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously
 					seemed impossible. I enjoy learning new skills and have a steep learning curve. I love working with others to create the best possible product, and I take pride 
 					in my ability to adapt to any setting with any team. With a little help from a cup of coffee, I believe a positive attitude and rigorous work ethic can
@@ -92,7 +95,7 @@
 				<div class="services-inner hidethis">
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="screen"></i></p>
-						<h3>WEB DESIGN</h3>
+						<h3>DIGITAL DESIGN</h3>
 					</div> 
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="pen"></i></p>
