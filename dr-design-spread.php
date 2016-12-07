@@ -24,7 +24,7 @@
       </div>
       <div class= "row">
         <div class= "col-xs-10 centered">
-          <img class= "portfoliopicture" src="images/portfolio-spreads/dr-design-spread.svg" title= "DR Design Spread" alt= "drdesign">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/dr-design-spread.png" title= "DR Design Spread" alt= "drdesign">
         </div>
       </div>
     </div> 

@@ -9,20 +9,22 @@
 	</div>
 	<!--Loader-->
 	<section id= "welcome">
-		<div class="splashimage">
-			<div class="overlay"></div>
-			<div class="container intromessage">
-				<div class= "row">
-					<div class="col-xs-12">
-						<div>
-							<img src="images/signature.svg" class="indexsignature centered img-responsive">
+		<div class= "container-fluid splashimage">
+			<!-- <div class="overlay"></div>	 -->
+			<div class= "row">
+				<div class="col-xs-12 intromessage">
+					<div class= "row">
+						<div class="col-xs-12">
+							<div>
+								<img src="images/signature.svg" class="indexsignature centered img-responsive">
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class= "row">
-					<div class="col-xs-12">
-						<div>
-							<a href="#resume" class="borderBtn scrollto">MORE ABOUT ME</a>
+					<div class= "row">
+						<div class="col-xs-12">
+							<div>
+								<a href="#resume" class="borderBtn scrollto">MORE ABOUT ME</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -78,13 +80,13 @@
 	<!--Services Section-->
     <section class="services section" id="about">
 		<div class="container">
-			<div class= "row">
+			<div class= "row col-xs-12 centered">
 				<div class="divider"></div>
 				<div class="heading">
 					<h2>WHO I AM AND WHAT I DO</h2>
 					<p>I create logical solutions for my clients </p>
 				</div>
-				<div class="blurb">
+				<div>
 					<p>My name is Diego Ricaurte, and I am a graphic and digital designer from Ellicott City, Maryland. I am passionate about design that 
 					is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously
 					seemed impossible. I enjoy learning new skills and have a steep learning curve. I love working with others to create the best possible product, and I take pride 
@@ -185,7 +187,7 @@
 				<div class="heading">
 					<h2>PORTFOLIO</h2>
 				</div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="the-key-elements-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">
 		                <div class = "index caption">
@@ -193,7 +195,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="atom-family-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/atom-family-thumb.png" alt="">
 	                	<div class = "index caption">
@@ -201,7 +203,7 @@
 	         			</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="agv-sport-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/agv-sport-thumb.png" alt="">
 	                	<div class = "index caption">
@@ -209,7 +211,7 @@
 	         			</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="dr-design-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/dr-design-thumb.png" alt="">
 		                <div class = "index caption">
@@ -217,7 +219,7 @@
 		         		</div>
 	                </a>
 	            </div>
-   				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="tournament-of-heroes-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/tournament-of-heroes-thumb.png"  alt="">
 		                <div class = "index caption">
@@ -225,7 +227,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="hard-rock-cafe-baltimore-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/hard-rock-cafe-thumb.png" alt="">
 		                <div class = "index caption">
@@ -233,7 +235,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="wake-will-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/wake-will-thumb.png" alt="">
 		                <div class = "index caption">
@@ -241,7 +243,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="arms-race-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/arms-race-thumb.png" alt="">
 	                <div class = "index caption">
@@ -249,7 +251,7 @@
 	         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="gtech-designs-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/gtech-thumb.png" alt="">
 	                <div class = "index caption">
@@ -257,7 +259,7 @@
 	         		</div>
 	                </a>
 	            </div>
-	             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="photography-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/photography-thumb.png" alt="">
 	                <div class = "index caption">
