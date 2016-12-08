@@ -33,6 +33,9 @@ $(document).ready(function(){
 	var windowH = $(window).height();
 	var splashH =$('.splashimage').outerHeight(true); 
 
+	var servicesTopOffset = $('.services .services-inner').offset().top;
+	var skillsTopOffset = $('.skills').offset().top;
+	
 	$(window).bind('resize', function () {
 		windowH = $(window).height();
 	});
@@ -42,23 +45,36 @@ $(document).ready(function(){
 			$(this).removeClass('hidethis');
 		}
 	});
+	
+	// Nav Bar
+		// grab the initial top offset of the navigation 
+		var sticky_navigation_offset_top = $('#navigation-bar').offset().top;
 
-	var servicesTopOffset = $('.services .services-inner').offset().top;
-	var skillsTopOffset = $('.skills').offset().top;
-	$(window).scroll(function(){
-		// Fixed Navbar
-		if(window.pageYOffset > splashH)
-		{
-			$('.navbar-flat').addClass('navbar-fixed-top');
-			$('.firstSec').addClass('fixed');
-		}
-		else
-		{
-			$('.navbar-flat').removeClass('navbar-fixed-top');
-			$('.firstSec').removeClass('fixed');
-		}
-		
-		// Skills Chart animation
+		// our function that decides weather the navigation bar should have "fixed" css position or not.
+		var sticky_navigation = function(){
+		    var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+
+		    // if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+		    if (scroll_top > sticky_navigation_offset_top) { 
+		        $('.navbar-flat').addClass('navbar-fixed-top');
+				$('.firstSec').addClass('fixed');
+		    } else {
+		        $('.navbar-flat').removeClass('navbar-fixed-top');
+				$('.firstSec').removeClass('fixed'); 
+		    }   
+		};
+
+		// run our function on load
+		sticky_navigation();
+
+		// and run it again every time you scroll
+		$(window).scroll(function() {
+		     sticky_navigation();
+		});
+
+	// 	Skills Chart animation
+
+	$(window).scroll(function() {
 		if(window.pageYOffset > skillsTopOffset-windowH+200)
 		{
 			$('.chart').easyPieChart({
@@ -74,4 +90,34 @@ $(document).ready(function(){
 			});
 		}
 	});
+
+	// $(window).scroll(function(){
+	// 	// Fixed Navbar
+	// 	if(window.pageYOffset > splashH)
+	// 	{
+	// 		$('.navbar-flat').addClass('navbar-fixed-top');
+	// 		$('.firstSec').addClass('fixed');
+	// 	}
+	// 	else
+	// 	{
+	// 		$('.navbar-flat').removeClass('navbar-fixed-top');
+	// 		$('.firstSec').removeClass('fixed');
+	// 	}
+
+	// 	Skills Chart animation
+	// 	if(window.pageYOffset > skillsTopOffset-windowH+200)
+	// 	{
+	// 		$('.chart').easyPieChart({
+	// 			easing: 'easeInOut',
+	// 			barColor: '#ffffff',
+	// 			trackColor: false,
+	// 			scaleColor: false,
+	// 			lineWidth: 5,
+	// 			size: 152,
+	// 			onStep: function(from, to, percent) {
+	// 				$(this.el).find('.percent').text(Math.round(percent));
+	// 			}
+	// 		});
+	// 	}
+	// });
 });

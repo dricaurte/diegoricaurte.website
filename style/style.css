@@ -158,9 +158,11 @@ section .centered {
   text-align: center;
   color: #f8f8f8;
   background: url(../images/splashimage.jpg) no-repeat center center;
-  background-size: cover; 
-  height: 100%;
-  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
   }
 
 .indexsignature{
@@ -617,6 +619,11 @@ input, textarea {
   animation-name: fadeInUp; 
 }
 
+@media only screen and (max-device-width: 1024px) {
+    .splashimage {
+        background-attachment: scroll;
+    }
+}
 @media only screen and (max-width: 768px) { .navbar-flat li { display: inline-block; 
   } }
 
