@@ -31,6 +31,7 @@ $(document).ready(function(){
 
 	// Animations
 	var windowH = $(window).height();
+	var splashH =$('.splashimage').outerHeight(true); 
 
 	$(window).bind('resize', function () {
 		windowH = $(window).height();
@@ -46,7 +47,7 @@ $(document).ready(function(){
 	var skillsTopOffset = $('.skills').offset().top;
 	$(window).scroll(function(){
 		// Fixed Navbar
-		if(window.pageYOffset > windowH)
+		if(window.pageYOffset > splashH)
 		{
 			$('.navbar-flat').addClass('navbar-fixed-top');
 			$('.firstSec').addClass('fixed');
