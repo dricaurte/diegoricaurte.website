@@ -363,11 +363,20 @@ border-radius: 0px;
 -------------------------------------------------------------------*/
 
 section.skills {
-  max-width: none; 
-  background: #004d28; 
-  background: url(../images/servicesimage.jpg) no-repeat center center;
-  background-size: cover; 
+	max-width: none; 
 }
+
+.skillsimage {
+	background: url(../images/skillsimage.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 100%;
+}
+
+}
+section.
 
 section.skills h4 { 
   color: white !important; 
@@ -412,11 +421,16 @@ section.skills h4 {
 
 .index .thumbnail {
   border: 0px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.thumb {
+  border: 0px;
   margin-bottom: 10px;
   padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  border-radius: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .index .caption h4 {
@@ -481,7 +495,8 @@ footer li a { display: block;
 }
 
 footer .facebook { 
-  background: url(../images/ff.png) center no-repeat #444749; 
+  background: url(../images/footericons.svg) center no-repeat #444749;
+  background-position: left top;  
 }
 
 footer .facebook:hover { 
@@ -493,26 +508,23 @@ footer .youtube {
 footer .youtube:hover { 
   background-color: #df3333; 
 }
-footer .dribbble { 
-  background: url(../images/dribbble.png) center no-repeat #444749; 
-}
-footer .dribbble:hover { 
-  background-color: #e94c89; 
-}
 footer .behance { 
-  background: url(../images/behance.png) center no-repeat #444749; 
+  background: url(../images/footericons.svg) center no-repeat #444749;
+  background-position: -108px top;  
 }
 footer .behance:hover { 
   background-color: #3fbff0; 
 }
 footer .instagram { 
-  background: url(../images/igram.png) center no-repeat #444749; 
+  background: url(../images/footericons.svg) center no-repeat #444749;
+  background-position: -36px top; 
 }
 footer .instagram:hover { 
   background-color: #956751; 
 }
 footer .linkedin { 
-  background: url(../images/ll.png) center no-repeat #444749; 
+  background: url(../images/footericons.svg) center no-repeat #444749;
+  background-position: -72px top; 
 }
 footer .linkedin:hover { 
   background-color: #0073b2; 
@@ -623,7 +635,9 @@ input, textarea {
     .splashimage {
         background-attachment: scroll;
     }
-}
+  	.skillsimage {
+        background-attachment: scroll;
+    }}
 @media only screen and (max-width: 768px) { .navbar-flat li { display: inline-block; 
   } }
 

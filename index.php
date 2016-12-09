@@ -108,7 +108,7 @@
 	</section>
 	<!--Services Section-->
 	<!--Skills Section-->
-	<section class="skills section colored" id="skills">
+	<section class="skills section colored skillsimage" id="skills">
 		<div class="container">
 			<div class= "row">
 				<div class="divider" id"skills"></div>
@@ -178,7 +178,7 @@
 				<div class="col-xs-10 centered heading">
 					<h2>PORTFOLIO</h2>
 				</div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="the-key-elements-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">
 		                <div class = "index caption">
@@ -186,7 +186,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="atom-family-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/atom-family-thumb.png" alt="">
 	                	<div class = "index caption">
@@ -194,7 +194,7 @@
 	         			</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="agv-sport-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/agv-sport-thumb.png" alt="">
 	                	<div class = "index caption">
@@ -202,7 +202,7 @@
 	         			</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="dr-design-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/dr-design-thumb.png" alt="">
 		                <div class = "index caption">
@@ -210,7 +210,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="tournament-of-heroes-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/tournament-of-heroes-thumb.png"  alt="">
 		                <div class = "index caption">
@@ -218,7 +218,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="hard-rock-cafe-baltimore-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/hard-rock-cafe-thumb.png" alt="">
 		                <div class = "index caption">
@@ -226,7 +226,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="wake-will-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/wake-will-thumb.png" alt="">
 		                <div class = "index caption">
@@ -234,7 +234,7 @@
 		         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="arms-race-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/arms-race-thumb.png" alt="">
 	                <div class = "index caption">
@@ -242,7 +242,7 @@
 	         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="gtech-designs-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/gtech-thumb.png" alt="">
 	                <div class = "index caption">
@@ -250,7 +250,7 @@
 	         		</div>
 	                </a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 index thumb">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 index thumb">
 	                <a class="index thumbnail" href="photography-spread.php">
 	                    <img class="img-responsive" src="images/portfolio-thumbs/photography-thumb.png" alt="">
 	                <div class = "index caption">
