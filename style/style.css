@@ -29,7 +29,6 @@ Black: #000000;
 -------------------------------------------------------------------*/
 
 html, body { 
-  color: #363b3f; 
   background: #f7f8f8; 
   overflow-x: hidden; 
 }
@@ -93,7 +92,7 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
   transition: all 0.3s ease-in, 0s; 
 }
 
-.btn:hover, .filter a:hover, .btn:focus, .filter a:focus { 
+.btn:hover, .btn:focus { 
   background-color: #004d28; 
   border-color: #004d28; 
   color: white; 
@@ -232,7 +231,7 @@ border-radius: 0px;
 [3. About]
 -------------------------------------------------------------------*/
 
-.hero { 
+.about { 
   background: #004d28; 
   color: white; 
 }
@@ -245,7 +244,7 @@ border-radius: 0px;
   margin-top: 20px; 
 }
 
-.hero h3 { 
+.about h3 { 
   color: #f7f8f8 !important; 
 }
 
@@ -419,12 +418,6 @@ section.skills h4 {
 [6. Index Portfolio]
 -------------------------------------------------------------------*/
 
-.index .thumbnail {
-  border: 0px;
-  padding: 10px;
-  border-radius: 3px;
-}
-
 .thumb {
   border: 0px;
   margin-bottom: 0px;
@@ -433,23 +426,30 @@ section.skills h4 {
   padding-right: 5px;
 }
 
-.index .caption h4 {
-  text-align: center;
-  font-weight: 400;
-  margin-top: 0px;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
-  transition-delay: initial;
+.thumbnail {
+  border: 0px;
+  padding: 0px;
+  border-radius: 0px;
 }
 
-.index .thumbnail:hover h4 {
+.thumbnail:hover {
+  background: #004d28;
+}
+
+.thumbnail:hover h4 {
   color: white; 
   text-decoration: none;
 }
 
-.index .thumbnail:hover {
-  background: #004d28;
+.caption h4 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
 }
 
 a:hover {

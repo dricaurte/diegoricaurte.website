@@ -8,7 +8,7 @@
   <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <div class="portfolioitemtext heading">
             <h2>Photography</h2>
             <h4> Freelance <h4> 
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/photography-spread.png" title= "Photography Spread" alt= "photography">
         </div>
       </div> 

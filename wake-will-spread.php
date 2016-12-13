@@ -8,7 +8,7 @@
   <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <div class="portfolioitemtext heading">
             <h2>Wake Will</h2>
             <h4> Brand / Photography / Event / Illustration <h4> 
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/wake-will-spread.png" title= "Wake Will Spread" alt= "wakewill">
         </div>
       </div>

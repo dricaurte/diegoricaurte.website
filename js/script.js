@@ -1,4 +1,5 @@
 // Loader
+
 $(document).ready(function() {
    window.setTimeout("loaderfade();", 700); 
  }
@@ -10,7 +11,9 @@ function loaderfade() {
 
 $(document).ready(function(){
 	'use strict';
+	
 	// Scroll
+
 	$('.scrollto').click(function(e){
 		e.preventDefault();
 		var scrollElm = $(this).attr('href');
@@ -19,6 +22,7 @@ $(document).ready(function(){
 	});
 
 	// Skills
+
 	var owl = $("#skills-slide");
 	owl.owlCarousel({
 		autoPlay:true,
@@ -30,8 +34,8 @@ $(document).ready(function(){
 	});
 
 	// Animations
+
 	var windowH = $(window).height();
-	var splashH =$('.splashimage').outerHeight(true); 
 
 	var servicesTopOffset = $('.services .services-inner').offset().top;
 	var skillsTopOffset = $('.skills').offset().top;
@@ -47,6 +51,7 @@ $(document).ready(function(){
 	});
 	
 	// Nav Bar
+
 		// grab the initial top offset of the navigation 
 		var sticky_navigation_offset_top = $('#navigation-bar').offset().top;
 
@@ -90,34 +95,4 @@ $(document).ready(function(){
 			});
 		}
 	});
-
-	// $(window).scroll(function(){
-	// 	// Fixed Navbar
-	// 	if(window.pageYOffset > splashH)
-	// 	{
-	// 		$('.navbar-flat').addClass('navbar-fixed-top');
-	// 		$('.firstSec').addClass('fixed');
-	// 	}
-	// 	else
-	// 	{
-	// 		$('.navbar-flat').removeClass('navbar-fixed-top');
-	// 		$('.firstSec').removeClass('fixed');
-	// 	}
-
-	// 	Skills Chart animation
-	// 	if(window.pageYOffset > skillsTopOffset-windowH+200)
-	// 	{
-	// 		$('.chart').easyPieChart({
-	// 			easing: 'easeInOut',
-	// 			barColor: '#ffffff',
-	// 			trackColor: false,
-	// 			scaleColor: false,
-	// 			lineWidth: 5,
-	// 			size: 152,
-	// 			onStep: function(from, to, percent) {
-	// 				$(this.el).find('.percent').text(Math.round(percent));
-	// 			}
-	// 		});
-	// 	}
-	// });
 });

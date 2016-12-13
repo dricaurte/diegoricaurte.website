@@ -8,7 +8,7 @@
   <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <div class="portfolioitemtext heading">
             <h2>The Key Elements</h2>
             <h4> Brand / Print / Cothing / Illustration <h4> 
@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/the-key-elements-spread.png" title= "The Key Elements Spread" alt= "thekeyelements">
         </div>
       </div> 

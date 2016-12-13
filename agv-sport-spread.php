@@ -8,7 +8,7 @@
   <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <div class="portfolioitemtext heading">
             <h2>AGV SPORT</h2>
             <h4> Icons / Brand / Product / Print <h4> 
@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class= "row">
-        <div class= "col-xs-10 centered">
+        <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/agv-sport-tags-spread.png" title= "AGV Sport Spread" alt= "agvsporttags">
         </div>
       </div> 
