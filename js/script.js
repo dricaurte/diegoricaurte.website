@@ -9,6 +9,7 @@ function loaderfade() {
    $(".loader").fadeOut('slow');
 }
 
+
 $(document).ready(function(){
 	'use strict';
 	
@@ -27,7 +28,7 @@ $(document).ready(function(){
 	owl.owlCarousel({
 		autoPlay:true,
 		items:4,
-		itemsDesktop:[1000,4],
+		itemsDesktop:[950,4],
 		itemsDesktopSmall:[900,3],
 		itemsTablet:[600,2],
 		itemsMobile:[480,1]

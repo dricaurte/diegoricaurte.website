@@ -12,7 +12,7 @@
 			<div class="row">
 				<div class="col-xs-10 centered">
 					<div>
-						<img src="images/signature.svg" class="indexsignature centered img-responsive">
+						<img src="images/signature.svg" class="indexsignature centered img-responsive .captionjs" alt="signature">
 					</div>
 				</div>
 				<div class="col-xs-10 centered">
@@ -27,26 +27,27 @@
 		<div class="navbar navbar-flat">
 			<div class="container">
 				<div class = "row">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="#" class="navbar-brand">MENU</a>
-				</div>
-				<div class="navbar-collapse collapse">
-					<nav>
-						<ul class="nav navbar-nav">
-							<!--Nav Menu-->
-							<li class="active"><a href="#welcome" class="scrollto">HOME</a></li>
-							<li><a href="#resume" class="scrollto">RESUME</a></li>
-							<li><a href="#about" class="scrollto">ABOUT</a></li>
-							<li><a href="#skills" class="scrollto">SKILLS</a></li>
-							<li><a href="#portfolio" class="scrollto">PORTFOLIO</a></li>
-							<!--Nav Menu-->
-						</ul>
-					</nav>
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand">MENU</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<nav>
+							<ul class="nav navbar-nav">
+								<!--Nav Menu-->
+								<li class="active"><a href="#welcome" class="scrollto">HOME</a></li>
+								<li><a href="#resume" class="scrollto">RESUME</a></li>
+								<li><a href="#about" class="scrollto">ABOUT</a></li>
+								<li><a href="#skills" class="scrollto">SKILLS</a></li>
+								<li><a href="#portfolio" class="scrollto">PORTFOLIO</a></li>
+								<!--Nav Menu-->
+							</ul>
+						</nav>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -57,7 +58,7 @@
 		<div class="container">
 			<div class= "row">
 				<div class="col-xs-6 profilePic">
-					<img src="images/me.jpg" alt="" class="img-circle">
+					<img src="images/me.jpg" class="img-circle caption" alt="Diego">
 				</div>
 				<div class="col-xs-10 centered heading">
 					<h1>DIEGO RICAURTE</h1>
@@ -78,7 +79,7 @@
 					<p>I create logical solutions for my clients </p>
 				</div>
 				<div class="col-xs-12 centered">
-					<p>My name is Diego Ricaurte, and I am a graphic and digital designer from Ellicott City, Maryland. I am passionate about design that 
+					<p class= "blurb">My name is Diego Ricaurte, and I am a graphic and digital designer from Ellicott City, Maryland. I am passionate about design that 
 					is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously
 					seemed impossible. I enjoy learning new skills and have a steep learning curve. I love working with others to create the best possible product, and I take pride 
 					in my ability to adapt to any setting with any team. With a little help from a cup of coffee, I believe a positive attitude and rigorous work ethic can
@@ -88,19 +89,19 @@
 				<div class="services-inner hidethis col-xs-12 centered">
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="screen"></i></p>
-						<h3>DIGITAL DESIGN</h3>
+						<h4>DIGITAL DESIGN</h4>
 					</div> 
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="pen"></i></p>
-						<h3>GRAPHIC DESIGN</h3>
+						<h4>GRAPHIC DESIGN</h4>
 					</div> 
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="tag"></i></p>
-						<h3>BRANDING</h3>
+						<h4>BRANDING</h4>
 					</div> 
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="camera"></i></p>
-						<h3>PHOTOGRAPHY</h3>
+						<h4>PHOTOGRAPHY</h4>
 					</div> 
 				</div>
 			</div>
@@ -111,7 +112,7 @@
 	<section class="skills section colored skillsimage" id="skills">
 		<div class="container">
 			<div class= "row">
-				<div class="divider" id"skills"></div>
+				<div class="divider" id="skills"></div>
 				<div class="col-xs-10 centered heading">
 					<h2>TECHNICAL SKILLS</h2>
 				</div>
@@ -173,85 +174,103 @@
 	<!--Portfolio Section-->
 	<section class="section portfolio" id="portfolio">
 		<div class="container">
-			<div class="row">
+			<div class="row centered">
 			 	<div class="divider"></div>
 				<div class="col-xs-10 centered heading">
 					<h2>PORTFOLIO</h2>
 				</div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="gtech-designs-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/gtech-thumb.png" alt="">
-	                <div class = "caption">
-	         			<h4>Gtech Designs</h4>
-	         		</div>
-	                </a>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="gtech-designs-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/gtech-thumb.png"  alt="">						
+							<div class="figcaption">
+								<h5>GTech Designs</h5>
+							</div>
+						</div>
+					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="wake-will-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/wake-will-thumb.png" alt="">
-		                <div class = "caption">
-		         			<h4>Wake Will</h4>
-		         		</div>
-	                </a>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="wake-will-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/wake-will-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>Wake Will</h5>
+							</div>
+						</div>
+					</a>
+	            </div>	            
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="agv-sport-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/agv-sport-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>AGV Sport</h5>
+							</div>
+						</div>
+					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="agv-sport-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/agv-sport-thumb.png" alt="">
-	                	<div class = "caption">
-	         				<h4>AGV Sport</h4>
-	         			</div>
-	                </a>
-	            </div>	   
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="arms-race-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/arms-race-thumb.png" alt="">
-	                <div class = "caption">
-	         			<h4>Arms Race</h4>
-	         		</div>
-	                </a>
-	            </div>	                     
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="the-key-elements-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">
-		                <div class = "caption">
-		         			<h4>The Key Elements</h4>
-		         		</div>
-	                </a>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="arms-race-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/arms-race-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>Arms Race</h5>
+							</div>
+						</div>
+					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="atom-family-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/atom-family-thumb.png" alt="">
-	                	<div class = "caption">
-	         				<h4>Atom Family</h4>
-	         			</div>
-	                </a>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="the-key-elements-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">					
+							<div class="figcaption">
+								<h5>The Key Elements</h5>
+							</div>
+						</div>
+					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="dr-design-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/dr-design-thumb.png" alt="">
-		                <div class = "caption">
-		         			<h4>DR Design</h4>
-		         		</div>
-	                </a>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="atom-family-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/atom-family-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>Atom Family</h5>
+							</div>
+						</div>
+					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="tournament-of-heroes-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/tournament-of-heroes-thumb.png"  alt="">
-		                <div class = "caption">
-		         			<h4>Tournament Of Heroes</h4>
-		         		</div>
-	                </a>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="dr-design-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/dr-design-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>DR Design</h5>
+							</div>
+						</div>
+					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a class="thumbnail" href="photography-spread.php">
-	                    <img class="img-responsive" src="images/portfolio-thumbs/photography-thumb.png" alt="">
-	                <div class = "caption">
-	         			<h4>Photography</h4>
-	         		</div>
-	                </a>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="tournament-of-heroes-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/tournament-of-heroes-thumb.png" alt="">					
+							<div class="figcaption">
+								<h5>Tournament of Heroes</h5>
+							</div>
+						</div>
+					</a>
 	            </div>
-	        </div>
-	   	</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="photography-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/photography-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>Photography</h5>
+							</div>
+						</div>
+					</a>
+	            </div>
+		    </div>
+	    </div>
     </section> 
     <!-- End of Portfolio Section --> 
 	<!--Footer Section-->
