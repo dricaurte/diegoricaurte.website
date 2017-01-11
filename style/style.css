@@ -149,17 +149,20 @@ section .centered {
 [1. Welcome]
 -------------------------------------------------------------------*/
 
-.splashimage { 
-  padding-top: 225px;
-  padding-bottom: 225px;
-  text-align: center;
-  color: #f8f8f8;
+.sectionsplashimage { 
   background: url(../images/splashimage.jpg) no-repeat center center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100%;
+  }
+
+.indexsignaturecontainer{ 
+  padding-top: 225px;
+  padding-bottom: 225px;
+  text-align: center;
+  color: #f8f8f8;
   }
 
 .indexsignature{
@@ -650,11 +653,16 @@ input, textarea {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .splashimage {
-        background-attachment: scroll;
+    .sectionsplashimage {
+      background: url(../images/splashimage2.jpg) no-repeat center center;
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-width: 100%;
     }
   	.skillsimage {
-        background-attachment: scroll;
+      background-attachment: scroll;
     }}
 @media only screen and (max-width: 768px) { .navbar-flat li { display: inline-block; 
   } }

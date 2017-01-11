@@ -7,8 +7,8 @@
 	<!--Loader-->
 	<div class="loader"></div>
 	<!--Loader-->
-	<section id="welcome">
-		<div class="container splashimage">
+	<section id="welcome" class="sectionsplashimage">
+		<div class="container indexsignaturecontainer">
 			<div class="row">
 				<div class="col-xs-10 centered">
 					<div>
@@ -229,7 +229,7 @@
 						</div>
 					</a>
 	            </div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+<!-- 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="atom-family-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/atom-family-thumb.png" alt="">						
@@ -238,7 +238,7 @@
 							</div>
 						</div>
 					</a>
-	            </div>
+	            </div> -->
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="dr-design-spread.php">
 						<div class="figure cap-bot">
