@@ -209,6 +209,16 @@
 						</div>
 					</a>
 	            </div>
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="superstar-fitness-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/superstar-fitness-thumb.png" alt="">
+							<div class="figcaption">
+								<h5>Tapout: Superstar Fitness</h5>
+							</div>
+						</div>
+					</a>
+	            </div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="arms-race-spread.php">
 						<div class="figure cap-bot">
@@ -249,7 +259,7 @@
 						</div>
 					</a>
 	            </div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+<!-- 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="tournament-of-heroes-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/tournament-of-heroes-thumb.png" alt="">					
@@ -258,7 +268,7 @@
 							</div>
 						</div>
 					</a>
-	            </div>
+	            </div> -->
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="photography-spread.php">
 						<div class="figure cap-bot">
@@ -284,7 +294,29 @@
     </section> 
     <!-- End of Portfolio Section --> 
 	<!--Footer Section-->
-  	<?php include 'resources/footer.php';?>
+	<footer class="section">
+	  <div class="container">
+	    <div class="row">
+	          <div class="col-xs-12 padder">
+	              <div class="col-xs-2 stampcontainer center-block">
+	                <a href="#welcome" class="scrollto">
+	                  <img class="stamp centered" src="images/badge.svg" alt="">
+	                </a>
+	              </div>
+	          </div> 
+	        <div class="col-xs-12 padder">
+	          <ul class= "socialmedia">
+	            <li><a target="_blank" class="facebook" href="https://www.facebook.com/diegoricaurtedesign/"></a></li>
+	            <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/diego-ricaurte-91b41563/"></a></li>
+	            <li><a target="_blank" class="instagram" href="https://www.instagram.com/daricaurte/"></a></li>
+	            <li><a target="_blank" class="pinterest" href="https://www.pinterest.com/daricaurte/pins/"></a></li>
+	            <li><a target="_blank" class="behance" href="https://www.behance.net/diegoricaurte"></a></li>
+	          </ul>
+	          <p>&copy; 2016 diegoricaurte.website</p>
+	        </div>
+	    </div>
+	  </div>
+	</footer>
 	<!--Footer Section-->
 	<!--Scripts-->	
 	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
