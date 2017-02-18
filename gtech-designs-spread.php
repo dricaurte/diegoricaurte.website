@@ -12,10 +12,12 @@
           <div class="portfolioitemtext heading">
             <h2>Gtech Designs</h2>
             <h4> Brand / Print / Web <h4> 
-            <p> During my semester off, I was offered the opportunity to work with Gtech Designs in Baltimore and was able to gain experience in to the culture of a burgeoning startup. 
-            I was given the responsibility to spearhead initial graphic branding of original print and advertisement materials, work with associated non profits in their branding endeavors,
-            and restructure Gtech's image for their new marketing portfolio. 
-             <p> 
+            <p> <b> Objective: </b>While working with GTECH Designs I was able to gain experience in to the culture of a burgeoning startup. My primary objective during my internship was to spearhead a rebranding, creating a uniform image across web and print in order to launch a new marketing portfolio targeted toward potential clients looking to rebrand their own materials.. 
+            <p> 
+
+            <p> <b> Challenge: </b> While being given control of a rebranding across multiple platforms is a terrific creative opportunity, it of course presents it's fair share of challenges. My primary two assignments were a new multipage brochure and a new landing page, and I was tasked with conceptualizing a design that could span both mediums while maintaining a consistent branding image.</p>
+
+            <p> <b> Solution: </b> My rebranding expanded on the purple logo of GTECH Designs. Both the website and the pamphlet utilized a flat, modern style that visually guides the viewer through a journey of what GTECH strives to be, highlighted with GTECH purple accents. The viewer is guided through GTECH's past work, as well as ways to interact further with the company. The site and print materials serve as an example for what GTECH can accomplish for its clients; a clean, modern, and story driven design style that is clean enough to be credible, but personal enough to be trusted.</p> 
           </div>
         </div>
       </div>

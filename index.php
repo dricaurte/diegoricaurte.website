@@ -180,31 +180,31 @@
 					<h2>PORTFOLIO</h2>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="gtech-designs-spread.php">
+	                <a href="signature-website-spread.php">
 						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/gtech-thumb.png"  alt="">						
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/signature-website-thumb.png" alt="">					
 							<div class="figcaption">
-								<h5>GTech Designs</h5>
+								<h5>Signature Website</h5>
 							</div>
 						</div>
 					</a>
 	            </div>
-				<!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="wake-will-spread.php">
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="the-key-elements-spread.php">
 						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/wake-will-thumb.png" alt="">						
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">					
 							<div class="figcaption">
-								<h5>Wake Will</h5>
+								<h5>The Key Elements</h5>
 							</div>
 						</div>
 					</a>
-	            </div>	     -->        
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="agv-sport-spread.php">
+	            </div>
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="dr-design-spread.php">
 						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/agv-sport-thumb.png" alt="">						
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/dr-design-thumb.png" alt="">						
 							<div class="figcaption">
-								<h5>AGV Sport</h5>
+								<h5>DR Design</h5>
 							</div>
 						</div>
 					</a>
@@ -219,6 +219,28 @@
 						</div>
 					</a>
 	            </div>
+	            
+	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="gtech-designs-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/gtech-thumb.png"  alt="">						
+							<div class="figcaption">
+								<h5>GTech Designs</h5>
+							</div>
+						</div>
+					</a>
+	            </div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="agv-sport-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/agv-sport-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>AGV Sport</h5>
+							</div>
+						</div>
+					</a>
+	            </div>
+	            
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="arms-race-spread.php">
 						<div class="figure cap-bot">
@@ -230,61 +252,11 @@
 					</a>
 	            </div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="the-key-elements-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">					
-							<div class="figcaption">
-								<h5>The Key Elements</h5>
-							</div>
-						</div>
-					</a>
-	            </div>
-<!-- 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="atom-family-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/atom-family-thumb.png" alt="">						
-							<div class="figcaption">
-								<h5>Atom Family</h5>
-							</div>
-						</div>
-					</a>
-	            </div> -->
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="dr-design-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/dr-design-thumb.png" alt="">						
-							<div class="figcaption">
-								<h5>DR Design</h5>
-							</div>
-						</div>
-					</a>
-	            </div>
-<!-- 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="tournament-of-heroes-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/tournament-of-heroes-thumb.png" alt="">					
-							<div class="figcaption">
-								<h5>Tournament of Heroes</h5>
-							</div>
-						</div>
-					</a>
-	            </div> -->
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="photography-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/photography-thumb.png" alt="">						
 							<div class="figcaption">
 								<h5>Photography</h5>
-							</div>
-						</div>
-					</a>
-	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="signature-website-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/signature-website-thumb.png" alt="">					
-							<div class="figcaption">
-								<h5>Signature Website</h5>
 							</div>
 						</div>
 					</a>
@@ -297,14 +269,14 @@
 	<footer class="section">
 	  <div class="container">
 	    <div class="row">
-	          <div class="col-xs-12 padder">
+	          <div class="col-xs-12 ">
 	              <div class="col-xs-2 stampcontainer center-block">
 	                <a href="#welcome" class="scrollto">
 	                  <img class="stamp centered" src="images/badge.svg" alt="">
 	                </a>
 	              </div>
 	          </div> 
-	        <div class="col-xs-12 padder">
+	        <div class="col-xs-12">
 	          <ul class= "socialmedia">
 	            <li><a target="_blank" class="facebook" href="https://www.facebook.com/diegoricaurtedesign/"></a></li>
 	            <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/diego-ricaurte-91b41563/"></a></li>

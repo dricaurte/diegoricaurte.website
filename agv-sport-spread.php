@@ -11,8 +11,13 @@
         <div class= "col-xs-8 centered">
           <div class="portfolioitemtext heading">
             <h2>AGV SPORT</h2>
-            <h4> Icons / Brand / Product / Print <h4> 
-            <p> AGV Sports group is a company that makes gear for bike riders. During the internship there, my primary project was designing the new line of "hang tags" that will be attached to new products in 2014. The project involved creating approximately 75 tags for all lines of riding products. Each tag required individualized text and icons. Additional tags were also designed for a separate group of "Kevlar-reinforced" products.  <p> 
+            <h4> Brand / Product / Icon / Print <h4> 
+            <br>
+            <p> <b> Objective: </b> AGV Sports group is a company that makes gear for bike riders. My primary project was designing the new line of "hang tags" that will be attached to new products in 2014. </p>
+
+            <p> <b> Challenge: </b>The primary challenge was designing a tag that could accompany a myriad of different products - helmets, gloves, suits, boots, jeans - while still maintaining a consistent brand image. All in all, this tag design would accompany a total of 75 different riding products. </p>
+
+            <p> <b> Solution: </b> My solution to this design challenge was a tag that utilized an icons and brief descriptions, customized to each individual product. The tags would utilize a bold orange hue to catch the eye of the customer as well as define a unique and recognizable brand. Over 20 different icons and descriptions were used to customize this new design format according to each product's specifications.  </p> 
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@
             <h2>Photography</h2>
             <h4> Freelance <h4> 
             <p> Initially a craft learned in order to document my work, photography has become one of my favorite passtimes. It forces
-            me to pause and take in my surroundings, as well as allow me to capture moments and make them something more defined. Here is some of 
+            me to pause and take notice of my surroundings, and allows me to define moments of clarity. Here is some of 
             my freelance photography. <p> 
           </div>
         </div>
