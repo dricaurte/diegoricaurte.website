@@ -26,7 +26,7 @@
     </div> 
   </section>
   <!--Footer Section-->
-  <?php include 'resources/footer.php';?>
+  <?php include 'resources/portfoliofooter.php';?>
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>

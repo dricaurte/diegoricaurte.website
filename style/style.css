@@ -181,6 +181,11 @@ p {
   display:block;
   max-width: 500px;
   max-height: 200px;
+  margin-bottom: 30px;
+}
+
+.splashportfoliolink{
+  padding-top: 30px;
 }
 
 /*------------------------------------------------------------------
@@ -614,6 +619,10 @@ footer .linkedin:hover {
 .portfolioitemsignature {
   width: 100%;
   margin: 0 auto;
+}
+
+.backbutton{
+  text-align: center;
 }
 
 /*------------------------------------------------------------------

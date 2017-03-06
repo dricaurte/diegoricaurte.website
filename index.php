@@ -15,9 +15,9 @@
 						<img src="images/signature.svg" class="indexsignature centered img-responsive .captionjs" alt="signature">
 					</div>
 				</div>
-				<div class="col-xs-10 centered">
+				<div class="col-xs-10 centered splashportfoliolink">
 					<div>
-						<a href="#resume" class="borderBtn scrollto">MORE ABOUT ME</a>
+						<a href="#portfolio" class="borderBtn scrollto">PORTFOLIO</a>
 					</div>
 				</div>
 			</div>
@@ -62,8 +62,8 @@
 				</div>
 				<div class="col-xs-10 centered heading">
 					<h1>DIEGO RICAURTE</h1>
-					<h3>Graphic and Digital Designer</h3>
-					<a href="files/resume.pdf" class="borderBtn">DOWNLOAD RESUME</a>
+					<h3>Digital and Graphic Designer</h3>
+					<a href="files/daricaurte_resume.pdf" class="borderBtn">DOWNLOAD RESUME</a>
 				</div>
 			</div>
 		</div>
@@ -76,14 +76,10 @@
 				<div class="divider"></div>
 				<div class="col-xs-10 centered heading">
 					<h2>WHO I AM AND WHAT I DO</h2>
-					<p>I create logical solutions for my clients </p>
+					<p>I create thoughtful and dynamic designs for my clients </p>
 				</div>
 				<div class="col-xs-12 centered">
-					<p class= "blurb">My name is Diego Ricaurte, and I am a graphic and digital designer from Ellicott City, Maryland. I am passionate about design that 
-					is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously
-					seemed impossible. I enjoy learning new skills and have a steep learning curve. I love working with others to create the best possible product, and I take pride 
-					in my ability to adapt to any setting with any team. With a little help from a cup of coffee, I believe a positive attitude and rigorous work ethic can
-					move worlds.
+					<p class= "blurb"> My name is Diego Ricaurte, and I am a digital and graphic designer from Ellicott City, Maryland. I am passionate about design that is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously seemed impossible.I thrive on new challenges and have a strong drive and initiative to learn. I love collaborating with others to create quality products, and I take pride in my ability to adapt to any setting with any team. Along with a cup of coffee, I believe a positive attitude and rigorous work ethic can move worlds. 
 					</p>
 				</div>
 				<div class="services-inner hidethis col-xs-12 centered">

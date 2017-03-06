@@ -13,9 +13,9 @@
             <h2>DR Design</h2>
             <h4> Brand / Digital / UI </h4> 
             <br>
-            <p> <b> Objective: </b> DR Design is the first iteration of my design brand. The objective of this project was to create a simple, modern, and user friendly landing page that focuses the user on the design portfolio. </p> 
+            <p> <b> Objective: </b> DR Design is the first iteration of my design brand. The objective of this project was to create a simple, modern, and user friendly landing page with a focus on the design portfolio. </p> 
 
-            <p> <b> Challenge: </b> As with any portfolio, the biggest challenge to overcome is standing out amongst a large pool of talented applicants. This site would have to be highly personal, unique, eye catching, and of course, memorable. </p>
+            <p> <b> Challenge: </b> As with any portfolio, the biggest challenge to overcome is standing out amongst a large pool of talented applicants. Most portfolio pages only have seconds to capture their target audience, an employer, so the design needed to prioritize ease of navigation, as well as memorable and unique visuals. </p>
             
             <p> <b> Solution: </b> The resulting hand-coded website utilizes a grid layout with a simple page structure consisting of a landing page that links to each individual portfolio piece, as well as a resume. The color palette consists of different shades of digital blue, with a brighter shade highlighting user focus. Personalized icons are used throughout the site in order to create a unique style that is simple enough not to detract from the variety of styles presented on the portfolio pages.</p> 
           </div>
@@ -32,7 +32,7 @@
     </div> 
   </section>
   <!--Footer Section-->
-  <?php include 'resources/footer.php';?>
+  <?php include 'resources/portfoliofooter.php';?>
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>

@@ -12,12 +12,11 @@
           <div class="portfolioitemtext heading">
             <h2>Gtech Designs</h2>
             <h4> Brand / Print / Web <h4> 
-            <p> <b> Objective: </b>While working with GTECH Designs I was able to gain experience in to the culture of a burgeoning startup. My primary objective during my internship was to spearhead a rebranding, creating a uniform image across web and print in order to launch a new marketing portfolio targeted toward potential clients looking to rebrand their own materials.. 
-            <p> 
+            <p> <b> Objective: </b> My primary objective during my internship at GTECH Designs was to spearhead a collatoral rebranding, creating a uniform image across web and print. This rebranding would facilitate the launch of a marketing portfolio targeted toward potential clients looking to rebrand their own materials. The resulting collatoral would include new print materials as well as a redesigned company landing page. <p> 
 
-            <p> <b> Challenge: </b> While being given control of a rebranding across multiple platforms is a terrific creative opportunity, it of course presents it's fair share of challenges. My primary two assignments were a new multipage brochure and a new landing page, and I was tasked with conceptualizing a design that could span both mediums while maintaining a consistent branding image.</p>
+            <p> <b> Challenge: </b> The primary challenge of this assignment was to conceptualize a branding image that could seamlessly transition between print and web materials, creating a uniform experience for the user. Any design choice for one platform would have to consider the compatability with the other, and allow for potential clients to get a sense of GTECH's capabilities no matter the entry point. </p>
 
-            <p> <b> Solution: </b> My rebranding expanded on the purple logo of GTECH Designs. Both the website and the pamphlet utilized a flat, modern style that visually guides the viewer through a journey of what GTECH strives to be, highlighted with GTECH purple accents. The viewer is guided through GTECH's past work, as well as ways to interact further with the company. The site and print materials serve as an example for what GTECH can accomplish for its clients; a clean, modern, and story driven design style that is clean enough to be credible, but personal enough to be trusted.</p> 
+            <p> <b> Solution: </b> My solution to these design challenges was a grid based design that would allow for and clear and clean user journey throughout web and print. My rebranding image expanded on the purple logo of GTECH Designs, using the same hue to accent the websites focal points. A collapsible menu bar reduces clutter for hte user while providing easy access to the websites mulitple sections. The viewer is guided through GTECH's past campaigns, as well as ways to interact further with the company with a contact section and links to various social media. The site and print materials serve as an example for what GTECH can accomplish for its clients; a clean, modern, and story driven design style that is clean enough to be credible, but personal enough to be trusted. </p> 
           </div>
         </div>
       </div>
@@ -29,7 +28,7 @@
     </div> 
   </section>
   <!--Footer Section-->
-  <?php include 'resources/footer.php';?>
+  <?php include 'resources/portfoliofooter.php';?>
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
