@@ -20,7 +20,7 @@
             <nav>
               <ul class="nav navbar-nav">
                 <!--Nav Menu-->
-                <li><a href="#welcome">HOME</a></li>
+                <li><a href="index.php#welcome">HOME</a></li>
                 <li><a href="index.php#resume"">RESUME</a></li>
                 <li><a href="index.php#about">ABOUT</a></li>
                 <li><a href="index.php#skills">SKILLS</a></li>
@@ -39,13 +39,12 @@
       <div class= "row">
         <div class= "col-xs-8 centered">
           <div class="heading">
-            <h2 class="portfoliotitle">The Key Elements</h2>
-            <h4> Brand / Digital / UX / UI </h4> 
-            <p> <b> Live Link: </b> <a href="www.thekeyelements.online"> www.thekeyelements.online </a>
-            <p> <b> Objective: </b> My primary objective in working with The Key Element's a cappella group was a complete branding overhaul that would target the average Cornell student. To accomplish this goal, I decided to conceptualize, design, and code a new website for the group. This rehauled media would facilitate a renewed impression on the Cornell population in order to and maximize audition and concert attendance. 
+            <h2 class="portfoliotitle">Wake Will</h2>
+            <h4> Brand / Graphics / Event Design </h4> 
+            <p> <b> Objective: The objective of Wake Will  was to give rise to a groundswell of support from a devoted community of Wake Foresters, and its success laid the foundation for the pursuit of something even greater. With this in mind, it was my objective to create interactive stations that would engage and captivate guests, speaking to the target audience of the Wake Forest Alumni population. </b> 
             <p/>
-            <p> <b> Challenge: </b> The target user for the new website is the average Cornell Student. Given such a large scope, I put a focus on a wide apppeal, creating a brand that is attractive to all viewers, regardless of music preference or gender. The new website needed to be desktop and mobile friendly, as well as give easy access to the groups music, events, personality, merchandise, and contact information. Lastly, this rebrand had to set the Key Elements apart from any of the other 20+ singing groups on campus</p>
-            <p><b> Solution: </b> The newly designed logo maintains the core 'bolt' motif of the original imaging, and adds a musical component in order to stay true to the nature of the group. The custom built site utilizes a simple scroll-through structure, and navigates the user through the groups member information, music, merchandise. Widgets and links throughout the site guide the user to various social media and music platforms the group utilizes, allowing for easy access to various promotional content. The overall tone of the website is neutral and people-focused, allowing the personality of the group to shine through, and creates a genuine user experience of The Key Elements A Cappella. <p/> 
+            <p> <b> Challenge: In order to engage the target audience, I would need incorporate the Wake Forest branding into my designs in order to create a feeling of familiarity. Creating at a larger scale also entailed a different approach to print design, placing a even larger focus on smaller details.</b> </p>
+            <p><b> Solution: </b> In order to connect to the Wake Forest Alumni, I created interactives that invited user interactivity. The Wake Will book encouraged Alumni to share Wake Forest's impact on their lives. The rotating cube's displayed achievemenets of current Wake Undergraduates, allowing alumni to explore different students with each side of the cube. By enouraging Alumni to learn more about the current Wake Forest population, as well as reminesce their own history with the institution, the interactives enouraged action in the Alumni and fostered greater pride in their alma mater. <p/> 
           </div>
 
         </div>

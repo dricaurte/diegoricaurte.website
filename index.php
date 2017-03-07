@@ -236,27 +236,16 @@
 						</div>
 					</a>
 	            </div>
-	            
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="arms-race-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/arms-race-thumb.png" alt="">						
-							<div class="figcaption">
-								<h5>Arms Race</h5>
-							</div>
-						</div>
-					</a>
-	            </div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="photography-spread.php">
 						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/photography-thumb.png" alt="">						
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/photography-thumb.png" alt="">					
 							<div class="figcaption">
 								<h5>Photography</h5>
 							</div>
 						</div>
 					</a>
-	            </div>
+	            </div>    
 		    </div>
 	    </div>
     </section> 

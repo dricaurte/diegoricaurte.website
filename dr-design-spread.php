@@ -20,7 +20,7 @@
             <nav>
               <ul class="nav navbar-nav">
                 <!--Nav Menu-->
-                <li><a href="#welcome">HOME</a></li>
+                <li><a href="index.php#welcome">HOME</a></li>
                 <li><a href="index.php#resume"">RESUME</a></li>
                 <li><a href="index.php#about">ABOUT</a></li>
                 <li><a href="index.php#skills">SKILLS</a></li>
