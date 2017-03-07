@@ -136,7 +136,7 @@
 						<span class="chart" data-percent="85">
 							<span class="percent"></span>
 						</span>
-						<h4>LIGHTROOM</h4>
+						<h4>OFFICE</h4>
 					</div>
 					<div class="skill">
 						<span class="chart" data-percent="80">
@@ -160,7 +160,7 @@
 						<span class="chart" data-percent="80">
 							<span class="percent"></span>
 						</span>
-						<h4>JQUERY</h4>
+						<h4>SKETCH</h4>
 					</div>
 				</div>
 			</div>
