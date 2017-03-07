@@ -9,8 +9,8 @@
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-8 centered">
-          <div class="portfolioitemtext heading">
-            <h2>The Key Elements</h2>
+          <div class="heading">
+            <h2 class="portfoliotitle">The Key Elements</h2>
             <h4> Brand / Digital / UX / UI </h4> 
             <p> <b> Live Link: </b> <a href="www.thekeyelements.online"> www.thekeyelements.online </a>
             <p> <b> Objective: </b> My primary objective in working with The Key Element's a cappella group was a complete branding overhaul that would target the average Cornell student. To accomplish this goal, I decided to conceptualize, design, and code a new website for the group. This rehauled media would facilitate a renewed impression on the Cornell population in order to and maximize audition and concert attendance. 
@@ -36,12 +36,8 @@
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/jquery.form-validator.min.js" type="text/javascript"></script>
-  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
   <script src="js/jquery.inview.min.js" type="text/javascript"></script>
-  <script src="js/script.js" type="text/javascript"></script>
 <!--Scripts-->
 </body>
 </html>

@@ -9,8 +9,8 @@
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-8 centered">
-          <div class="portfolioitemtext heading">
-            <h2>Gtech Designs</h2>
+          <div class="heading">
+            <h2 class="portfoliotitle">Gtech Designs</h2>
             <h4> Brand / Print / Web <h4> 
             <p> <b> Objective: </b> My primary objective during my internship at GTECH Designs was to spearhead a collatoral rebranding, creating a uniform image across web and print. This rebranding would facilitate the launch of a marketing portfolio targeted toward potential clients looking to rebrand their own materials. The resulting collatoral would include new print materials as well as a redesigned company landing page. <p> 
 
@@ -32,12 +32,8 @@
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/jquery.form-validator.min.js" type="text/javascript"></script>
-  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
   <script src="js/jquery.inview.min.js" type="text/javascript"></script>
-  <script src="js/script.js" type="text/javascript"></script>
 <!--Scripts-->
 </body>
 </html>

@@ -33,7 +33,7 @@ html, body {
 }
 
 .section { 
-  padding: 60px 0 60px 0px; 
+  padding: 60px 0 75px 0px; 
 }
 
 .section h1, .section h2, .section h3, .section h4 {
@@ -51,14 +51,14 @@ html, body {
 
 .section .heading { 
   text-align: center; 
-  padding-bottom: 15px; 
+  padding-bottom: 20px; 
 }
 
 .section .profilePic { 
   text-align: center; 
   margin: 0 auto; 
   float: none; 
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .section .divider { 
@@ -148,13 +148,13 @@ section .centered {
 
 h1, h2, h3, h4 {
 
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-bottom: 15px;
 }
 
 p {
 
-	margin: 0 0 15px;
+	margin: 0 0 20px;
 }
 
 /*------------------------------------------------------------------
@@ -254,6 +254,8 @@ border-radius: 0px;
   color: white; 
 }
 
+.title{ padding-bottom: 10px; }
+
 .blurb {
   text-align: center;
 }
@@ -267,11 +269,11 @@ border-radius: 0px;
 }
 
 .firstSec { 
-  padding-top: 30px; 
+  padding-top: 45px; 
 }
 
 .firstSec.fixed { 
-  padding-top: 80px; 
+  padding-top: 95px; 
 }
 
 .services .services-inner {
@@ -436,6 +438,10 @@ section.skills h4 {
 [6. Index Portfolio]
 -------------------------------------------------------------------*/
 
+.portfoliotitle {
+	text-align: center; 
+	padding-bottom: 15px;
+}
 .thumb {
   border: 0px;
   margin-bottom: 0px;
@@ -504,7 +510,7 @@ footer {
 
 .padder{
   padding-top: 0px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 
 }
 
@@ -512,7 +518,7 @@ footer {
   min-width: 125px;
   max-width: 125px;
   float: none;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .stamp {
@@ -523,7 +529,7 @@ footer {
 
 .socialmedia {
   padding-bottom: 30px;
-  padding-top: 15px;
+  padding-top: 20px;
   margin: 0px;
 }
 
@@ -607,18 +613,14 @@ footer .linkedin:hover {
 
 .portfolioitemheader{ 
   background: #004d28;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+}
+
+.portfoliotitle{
   padding: 0px;
-}
-
-.portfolioitemsignaturecontainer{
-  padding-top: 30px;
-  width: 300px;
-  padding-bottom: 30px;
-}
-
-.portfolioitemsignature {
-  width: 100%;
-  margin: 0 auto;
+  margin-top:0px;
 }
 
 .backbutton{

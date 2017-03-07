@@ -9,10 +9,9 @@
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-8 centered">
-          <div class="portfolioitemtext heading">
-            <h2>AGV SPORT</h2>
+          <div class="heading">
+            <h2 class="portfoliotitle">AGV SPORT</h2>
             <h4> Brand / Product / Icon / Print <h4> 
-            <br>
             <p> <b> Objective: </b> AGV Sports group is a company that makes gear for bike riders. My primary project was designing the new line of "hang tags" that will be attached to new products in 2014. </p>
 
             <p> <b> Challenge: </b>The primary challenge was designing a tag that could accompany a myriad of different products - helmets, gloves, suits, boots, jeans - while still maintaining a consistent brand image. All in all, this tag design would accompany a total of 75 different riding products. </p>
@@ -33,12 +32,8 @@
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/jquery.form-validator.min.js" type="text/javascript"></script>
-  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
   <script src="js/jquery.inview.min.js" type="text/javascript"></script>
-  <script src="js/script.js" type="text/javascript"></script>
 <!--Scripts-->
 </body>
 </html>

@@ -62,7 +62,7 @@
 				</div>
 				<div class="col-xs-10 centered heading">
 					<h1>DIEGO RICAURTE</h1>
-					<h3>Digital and Graphic Designer</h3>
+					<h3 class= "title">Digital and Graphic Designer</h3>
 					<a href="files/daricaurte_resume.pdf" class="borderBtn">DOWNLOAD RESUME</a>
 				</div>
 			</div>
@@ -172,7 +172,7 @@
 		<div class="container">
 			<div class="row centered">
 			 	<div class="divider"></div>
-				<div class="col-xs-10 centered heading">
+				<div class="col-xs-10 centered  portfoliotitle">
 					<h2>PORTFOLIO</h2>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">

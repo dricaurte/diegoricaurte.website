@@ -9,10 +9,9 @@
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-8 centered">
-          <div class="portfolioitemtext heading">
-            <h2>DR Design</h2>
+          <div class=" heading">
+            <h2 class="portfoliotitle">DR Design</h2>
             <h4> Brand / Digital / UI </h4> 
-            <br>
             <p> <b> Objective: </b> DR Design is the first iteration of my design brand. The objective of this project was to create a simple, modern, and user friendly landing page with a focus on the design portfolio. </p> 
 
             <p> <b> Challenge: </b> As with any portfolio, the biggest challenge to overcome is standing out amongst a large pool of talented applicants. Most portfolio pages only have seconds to capture their target audience, an employer, so the design needed to prioritize ease of navigation, as well as memorable and unique visuals. </p>
@@ -36,12 +35,8 @@
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/jquery.form-validator.min.js" type="text/javascript"></script>
-  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
   <script src="js/jquery.inview.min.js" type="text/javascript"></script>
-  <script src="js/script.js" type="text/javascript"></script>
 <!--Scripts-->
 </body>
 </html>

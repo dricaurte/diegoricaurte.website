@@ -3,14 +3,19 @@
 <head>
    <?php include 'resources/head.php';?>
 </head>
-<body>
+<!DOCTYPE html>
+<html> 
+<head>
+   <?php include 'resources/head.php';?>
+</head>
+<body data-spy="scroll" data-target=".navbar-flat" data-offset="55">
   <?php include 'resources/portfolioitemheader.php';?>
   <section class="portfolioitem section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-8 centered">
-          <div class="portfolioitemtext heading">
-            <h2> Arms Race </h2>
+          <div class="heading">
+            <h2 class="portfoliotitle"> Arms Race </h2>
             <h4> Illustration / Print <h4> 
             <p>This work was inspired by the events of the Cold War, which was, in many ways, the culminations of the end of the world's
              "Arms Race". From sticks, to stones, to machine guns, to rocket launchers, and eventually nuclear warheads,
@@ -32,12 +37,8 @@
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-  <script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/jquery.form-validator.min.js" type="text/javascript"></script>
-  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
   <script src="js/jquery.inview.min.js" type="text/javascript"></script>
-  <script src="js/script.js" type="text/javascript"></script>
 <!--Scripts-->
 </body>
 </html>
