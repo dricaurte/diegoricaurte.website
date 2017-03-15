@@ -9,10 +9,10 @@
   <link href="style/reset.css" rel="stylesheet" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style/vegas.css">
   <link href="style/jquery.fs.boxer.css" rel="stylesheet" type="text/css" />
   <link href="style/owl.carousel.css" rel="stylesheet" type="text/css" />
   <link href="style/style.css" rel="stylesheet" type="text/css" />
-  <link href="captionjs.css" rel="stylesheet"/>
 <!--Styles-->
 <!--Favicon-->
   <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">

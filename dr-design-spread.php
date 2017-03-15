@@ -3,7 +3,7 @@
 <head>
    <?php include 'resources/head.php';?>
 </head>
-<body data-spy="scroll" data-target=".navbar-flat" data-offset="55">
+<body>
   <section id = "navigation-bar"> 
     <div class="navbar navbar-flat">
       <div class="container">
@@ -20,11 +20,9 @@
             <nav>
               <ul class="nav navbar-nav">
                 <!--Nav Menu-->
-                <li><a href="index.php#welcome">HOME</a></li>
-                <li><a href="index.php#resume"">RESUME</a></li>
-                <li><a href="index.php#about">ABOUT</a></li>
-                <li><a href="index.php#skills">SKILLS</a></li>
-                <li><a href="index.php#portfolio">PORTFOLIO</a></li>
+                <li><a href="the-key-elements-spread.php">PREV</a></li>
+                <li><a href="index.php#portfolio">HOME</a></li>
+                <li><a href="superstar-fitness-spread.php">NEXT</a></li>
                 <!--Nav Menu-->
               </ul>
             </nav>
@@ -33,8 +31,7 @@
       </div>
     </div>
   </section>
-  <!--Navbar Section-->
-  <section class="portfolioitem section firstSec">
+  <section class="portfolioitem firstSec section">
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-8 centered">
@@ -60,13 +57,14 @@
     </div> 
   </section>
   <!--Footer Section-->
+  <?php include 'resources/portfolioitemportfolio.php';?>
   <?php include 'resources/portfoliofooter.php';?>
   <!--Footer Section-->
 <!--Scripts-->  
   <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
   <script src="js/jquery.inview.min.js" type="text/javascript"></script>
-  <script src="js/portfolionavbar.js" type="text/javascript"></script>
+  <script src="js/portfolioitemnavbar.js" type="text/javascript"></script>
 <!--Scripts-->
 </body>
 </html>

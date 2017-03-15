@@ -22,6 +22,19 @@ $(document).ready(function(){
 		$('html, body').animate({ scrollTop: scrollTo - 50 }, "slow");
 	});
 
+	// Vegas Plugin
+    $('#promo').vegas({
+        delay: 7000,
+        overlay: 'images/overlays/06.png',
+        transition: 'zoomOut',
+        transitionDuration: 2500,
+        slides: [
+            { src: 'images/hero.jpg' },
+            { src: 'images/hero2.jpg' },
+            { src: 'images/hero1.jpg' },
+        ]
+    });
+
 	// Skills
 
 	var owl = $("#skills-slide");
@@ -96,4 +109,5 @@ $(document).ready(function(){
 			});
 		}
 	});
+
 });

@@ -20,8 +20,9 @@
             <nav>
               <ul class="nav navbar-nav">
                 <!--Nav Menu-->
-                <li><a href="wake-will-spread.php">PREV</a></li>
+                <li><a href="agv-sport-spread.php">PREV</a></li>
                 <li><a href="index.php#portfolio">HOME</a></li>
+                <li><a href="photography-spread.php">NEXT</a></li>
                 <!--Nav Menu-->
               </ul>
             </nav>
@@ -34,18 +35,21 @@
     <div class= "container">
       <div class= "row">
         <div class= "col-xs-8 centered">
-          <div class=" heading">
-            <h2 class="portfoliotitle">Photography</h2>
-            <h4> Freelance </h4> 
-            <p> Initially a craft learned in order to document my work, photography has become one of my favorite pastimes. It forces
-            me to pause and take notice of my surroundings, and allows me to define moments of clarity. Here is some of 
-            my freelance photography. </p> 
+          <div class="heading">
+            <h2 class="portfoliotitle">Wake Will</h2>
+            <h4> Brand / Graphics / Event Design </h4> 
+            <p> <b> Objective: </b> The goal of Wake Will was to give rise to a groundswell of support from a devoted community of Wake Foresters, and to lay the foundation for the pursuit of something even greater. With this in mind, it was my objective to create interactive stations that would engage and captivate guests, sending a message to the target audience of the Wake Forest Alumni population.
+            </p>
+            <p> <b> Challenge: </b> In order to engage the target audience, I would need incorporate the Wake Forest branding into my design. Furthermore, creating at a larger scale also entailed a different approach to print design, placing a greater focus on smaller details. 
+            </p>
+            <p><b> Solution: </b> The interactive stations focused on user interactivity. The Wake Will Book invites Alumni to share Wake Forest's impact on their lives. The rotating cube's displays achievements of current Wake Undergraduates, allowing alumni to explore different students with each side of the cube. By encouraging Alumni to learn more about the current Wake Forest population, as well as reminisce their own history with the institution, the two stations incite action in the Alumni and fostered a greater pride in their alma mater. </p> 
           </div>
+
         </div>
       </div>
       <div class= "row">
         <div class= "col-xs-8 centered">
-          <img class= "portfoliopicture" src="images/portfolio-spreads/photography-spread.png" title= "Photography Spread" alt= "photography">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/wake-will-spread.png" title= "Wake Will Spread" alt= "wakewill">
         </div>
       </div> 
     </div> 

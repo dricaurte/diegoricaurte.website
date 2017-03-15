@@ -1,11 +1,6 @@
 <footer class="section">
   <div class="container">
-    <div class="row">
-          <div class="col-xs-12 centered padder">
-              <div class="backbutton">
-                    <a href="index.php#portfolio" class="borderBtn">BACK</a>
-              </div>
-          </div> 
+    <div class="row"> 
         <div class="col-xs-12 padder">
           <ul class= "socialmedia">
             <li><a target="_blank" class="facebook" href="https://www.facebook.com/diegoricaurtedesign/"></a></li>

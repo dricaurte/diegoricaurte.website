@@ -1,16 +1,12 @@
-/*
-* @project: One - Flat Theme;
-* @author: 	SF Theme;
-*/
+/* Diego Ricaurte: Graphic and Digital Design */
 /*------------------------------------------------------------------
 [Color Codes]
-Dark Green: #00331a;
-Light Green: #004d28;
+Green: #004d28;
+Darker Green: #00331a;
 Dark Grey: #363b3f;
-Dark Grey 2: #b6b7b7;
+Darker Grey: #b6b7b7;
 Social Buttons: #444749;
-Light Grey: #f7f8f8;
-Bubbles:#BFBFBF;
+Off-white: #f7f8f8;
 White: #ffffff;
 Black: #000000;
 -------------------------------------------------------------------*/
@@ -23,9 +19,10 @@ Black: #000000;
 4. Skills 
 5. Portfolio 
 6. Footer
-7. Portfolio Item Pages
+7. Portfolio Items 
 8. Miscellaneous 
 -------------------------------------------------------------------*/
+
 
 html, body { 
   background: #f7f8f8; 
@@ -98,7 +95,7 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
   color: white; 
 }
 
-.borderBtn { 
+.borderBtn, .contactform button { 
   font-family: "Lato", sans-serif; 
   font-weight: 700; 
   font-size: 14px; 
@@ -119,7 +116,7 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
   transition: all 0.3s ease-in, 0s; 
 }
 
-.borderBtn:hover, .borderBtn:focus { 
+.borderBtn:hover, .contactform button:hover, .borderBtn:focus, .contactform button:focus { 
   background-color: white; 
   color: #004d28; 
   text-decoration: none; 
@@ -171,8 +168,8 @@ p {
   }
 
 .indexsignaturecontainer{ 
-  padding-top: 225px;
-  padding-bottom: 225px;
+  padding-top: 125px;
+  padding-bottom: 125px;
   text-align: center;
   color: #f8f8f8;
   }
@@ -376,7 +373,6 @@ border-radius: 0px;
 }
 
 
-
 /*------------------------------------------------------------------
 [4. Skills]
 -------------------------------------------------------------------*/
@@ -394,7 +390,6 @@ section.skills {
 	min-width: 100%;
 }
 
-}
 section.
 
 section.skills h4 { 
@@ -442,6 +437,7 @@ section.skills h4 {
 	text-align: center; 
 	padding-bottom: 15px;
 }
+
 .thumb {
   border: 0px;
   margin-bottom: 0px;
@@ -472,9 +468,11 @@ section.skills h4 {
   -moz-transition:    all 0.6s ease;
   -o-transition:      all 0.6s ease;
 }
+
 .figure:hover .figcaption {
   opacity: 1;
 }
+
 .figure:before {
   font-weight: 800;
   background: black;
@@ -492,6 +490,7 @@ section.skills h4 {
   -moz-transition: all 0.6s ease;
   opacity: 0.75;
 }
+
 .figure:hover:before {
   opacity: 0;
 }
@@ -504,7 +503,7 @@ section.skills h4 {
 [7. Footer]
 -------------------------------------------------------------------*/
 
-footer { 
+footer{ 
   background: #363b3f; 
 }
 
@@ -571,6 +570,7 @@ footer .facebook {
 footer .facebook:hover { 
   background-color: #4265b9; 
 }
+
 /*footer .youtube { 
   background: url(../images/youtube.png) center no-repeat #444749; 
 }
@@ -578,31 +578,39 @@ footer .youtube:hover {
   background-color: #df3333; 
 }
 */
+
 footer .pinterest { 
   background: url(../images/footericons.svg) center no-repeat #444749;
   background-position: -144px top; 
 }
+
 footer .pinterest:hover { 
   background-color: #df3333; 
 }
+
 footer .behance { 
   background: url(../images/footericons.svg) center no-repeat #444749;
   background-position: -108px top;  
 }
+
 footer .behance:hover { 
   background-color: #3fbff0; 
 }
+
 footer .instagram { 
   background: url(../images/footericons.svg) center no-repeat #444749;
   background-position: -36px top; 
 }
+
 footer .instagram:hover { 
   background-color: #956751; 
 }
+
 footer .linkedin { 
   background: url(../images/footericons.svg) center no-repeat #444749;
   background-position: -72px top; 
 }
+
 footer .linkedin:hover { 
   background-color: #0073b2; 
 }
@@ -625,6 +633,38 @@ footer .linkedin:hover {
 
 .backbutton{
   text-align: center;
+}
+
+.portfolioitem{
+
+  background: white;
+}
+ 
+/*------------------------------------------------------------------
+[7. Contact]
+-------------------------------------------------------------------*/
+section.contact{
+  background-color:white;
+}
+section.contact .details { text-align: center; padding: 0 0 30px 0px; }
+section.contact .details p { font-family: "Lato", sans-serif; font-size: 30px; font-weight: 300; }
+section.contact .details p.bigger { font-size: 40px; font-weight: 700; margin-top: 20px; }
+
+.contactform input, .contactform textarea { border: 1px solid #b6b7b7; color: #363b3f; background: none; padding: 15px 30px; margin: 0 3% 20px 0px; resize: none; }
+.contactform .error, .contactform .form-error { border-color: #c12728 !important; }
+.contactform .no-margin { margin-right: 0px; }
+.contactform input.col-lg-6 { width: 48.5%; }
+.contactform button { background: #004d28; }
+.contactform button:hover, .contactform button:focus { border-color: #004d28; }
+.contactform p { text-align: center; }
+
+.form a { color: white; }
+
+/*------------------------------------------------------------------
+[9. Vegas Slider]
+-------------------------------------------------------------------*/
+.vegas-timer-progress {
+  background: #00331a;
 }
 
 /*------------------------------------------------------------------
@@ -753,3 +793,4 @@ input, textarea {
     left: -10px; 
     right: auto; 
   }
+

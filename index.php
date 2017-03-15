@@ -5,10 +5,9 @@
 </head>
 <body data-spy="scroll" data-target=".navbar-flat" data-offset="55">
 	<!--Loader-->
-	<div class="loader"></div>
-	<!--Loader-->
-	<section id="welcome" class="sectionsplashimage">
-		<div class="container indexsignaturecontainer">
+	<!--Slider Section-->
+	<section id="promo" class="promo-section section">
+        <div class="container indexsignaturecontainer">
 			<div class="row">
 				<div class="col-xs-10 centered">
 					<div>
@@ -21,8 +20,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</div>   
+    </section>
+	<!--Slider Section-->
+	<!--Navbar Section-->
 	<section id = "navigation-bar"> 
 		<div class="navbar navbar-flat">
 			<div class="container">
@@ -38,13 +39,11 @@
 					<div class="navbar-collapse collapse">
 						<nav>
 							<ul class="nav navbar-nav">
-								<!--Nav Menu-->
 								<li class="active"><a href="#welcome" class="scrollto">HOME</a></li>
 								<li><a href="#resume" class="scrollto">RESUME</a></li>
 								<li><a href="#about" class="scrollto">ABOUT</a></li>
 								<li><a href="#skills" class="scrollto">SKILLS</a></li>
 								<li><a href="#portfolio" class="scrollto">PORTFOLIO</a></li>
-								<!--Nav Menu-->
 							</ul>
 						</nav>
 					</div>
@@ -108,7 +107,7 @@
 	<section class="skills section colored skillsimage" id="skills">
 		<div class="container">
 			<div class= "row">
-				<div class="divider" id="skills"></div>
+				<div class="divider"></div>
 				<div class="col-xs-10 centered heading">
 					<h2>TECHNICAL SKILLS</h2>
 				</div>
@@ -237,6 +236,16 @@
 					</a>
 	            </div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="wake-will-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/wake-will-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>Wake Will</h5>
+							</div>
+						</div>
+					</a>
+	            </div>	            
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="photography-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/photography-thumb.png" alt="">					
@@ -249,18 +258,33 @@
 		    </div>
 	    </div>
     </section> 
-    <!-- End of Portfolio Section --> 
+    <!-- End of Portfolio Section -->
+    <!--Contact Section-->
+	<!-- <section class="contact section" id="contact">
+		<div class="container">
+			<div class="divider"></div>
+			<div class="heading">
+				<h2>CONTACT ME</h2>
+			</div>
+			<div class="form">
+				<div class="col-xs-12 col-sm-9 col-md-9 centered">
+					<form action="send.php" onSubmit="return false;" id="xhr" method="post" name="contactform" class="contactform">
+						<input type="hidden" value="contact" name="type">
+						<input name="send[name]" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." data-validation="required">
+						<input name="send[email]" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 no-margin" placeholder="Your email..." data-validation="email">
+						<textarea name="send[message]" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..." data-validation="required"></textarea>
+						<p><button class="submit sendcontact">SEND MESSAGE</button></p>
+					</form>
+					<p class="error"></p>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!--Contact Section-->
 	<!--Footer Section-->
 	<footer class="section">
 	  <div class="container">
 	    <div class="row">
-	          <div class="col-xs-12 ">
-	              <div class="col-xs-2 stampcontainer center-block">
-	                <a href="#welcome" class="scrollto">
-	                  <img class="stamp centered" src="images/badge.svg" alt="">
-	                </a>
-	              </div>
-	          </div> 
 	        <div class="col-xs-12">
 	          <ul class= "socialmedia">
 	            <li><a target="_blank" class="facebook" href="https://www.facebook.com/diegoricaurtedesign/"></a></li>
@@ -276,11 +300,12 @@
 	</footer>
 	<!--Footer Section-->
 	<!--Scripts-->	
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="js/owl.carousel.min.js" type="text/javascript"></script>
 	<script src="js/jquery.inview.min.js" type="text/javascript"></script>
+	<script src="js/vegas.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 	<!--Scripts-->
 </body>
