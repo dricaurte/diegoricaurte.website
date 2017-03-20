@@ -4,15 +4,12 @@
    <?php include 'resources/head.php';?>
 </head>
 <body data-spy="scroll" data-target=".navbar-flat" data-offset="55">
-	<!--Loader-->
-	<!--Slider Section-->
-	<section id="promo" class="promo-section section">
+	<!--Welcome Section-->
+	<section id="promo" class="slider-section section">
         <div class="container indexsignaturecontainer">
 			<div class="row">
 				<div class="col-xs-10 centered">
-					<div>
-						<img src="images/signature.svg" class="indexsignature centered img-responsive .captionjs" alt="signature">
-					</div>
+                	<div class="logo-holder"></div>
 				</div>
 				<div class="col-xs-10 centered splashportfoliolink">
 					<div>
@@ -22,7 +19,7 @@
 			</div>
 		</div>   
     </section>
-	<!--Slider Section-->
+	<!--Welcome Section-->
 	<!--Navbar Section-->
 	<section id = "navigation-bar"> 
 		<div class="navbar navbar-flat">
