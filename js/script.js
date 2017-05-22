@@ -55,7 +55,7 @@ $(document).ready(function(){
 	var windowH = $(window).height();
 
 	var servicesTopOffset = $('.services .services-inner').offset().top;
-	var skillsTopOffset = $('.skills').offset().top;
+	var skillsTopOffset = $('.references').offset().top;
 	
 	$(window).bind('resize', function () {
 		windowH = $(window).height();
@@ -69,13 +69,13 @@ $(document).ready(function(){
 
 	// Skills
 
-	var owl = $("#skills-slide");
+	var owl = $("#references-slide");
 	owl.owlCarousel({
 		autoPlay:true,
-		items:4,
-		itemsDesktop:[950,4],
-		itemsDesktopSmall:[900,3],
-		itemsTablet:[600,2],
+		items:1,
+		itemsDesktop:[950,1],
+		itemsDesktopSmall:[900,1],
+		itemsTablet:[600,1],
 		itemsMobile:[480,1]
 	});
 

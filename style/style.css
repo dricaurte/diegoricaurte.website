@@ -395,12 +395,12 @@ border-radius: 0px;
 [4. Skills]
 -------------------------------------------------------------------*/
 
-section.skills {
+section.references {
 	max-width: none; 
 }
 
 .skillsimage {
-	background: url(../images/skillsimage.jpg) no-repeat center center;
+  background: url(../images/skillsimage.jpg) center no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -408,53 +408,74 @@ section.skills {
 	min-width: 100%;
 }
 
-section.
-
-section.skills h4 { 
-  color: white !important; 
+.testimonialtext{
+  margin-top: 15px;
+  padding: 0px;
 }
 
-.skill { 
-  margin: 0 auto 20px auto; 
-  float: none; 
-  text-align: center; 
+.testimonialtext p{
+  font-size: 18px;
 }
 
-.chart { 
-  position: relative; 
-  width: 152px; 
-  height: 152px; 
-  display: inline-block; 
-  margin: 0 0 25px 0px; 
-  text-align: center; 
+.carolinetestimonialphoto {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background: url(../images/referencephotos/caroline.png) center no-repeat #444749;
 }
 
-.chart canvas { 
-  position: absolute; 
-  left: 0px; 
-  top: 0px; 
+.fionatestimonialphoto {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background: url(../images/referencephotos/fiona.png) center no-repeat #444749;
 }
 
-.chart .percent { 
-  font-family: "Lato", sans-serif; 
-  color: white; 
-  line-height: 152px; 
-  display: inline-block; 
-  font-size: 35px; 
+.damartestimonialphoto {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background: url(../images/referencephotos/damar.png) center no-repeat #444749;
 }
 
-.chart .percent:after { 
-  content: '%'; 
+.danielletestimonialphoto {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background: url(../images/referencephotos/danielle.png) center no-repeat #444749;
 }
 
+.reference {
+
+  width: 300px;
+  margin: 0 auto;
+}
+
+.testimonialtext {
+  text-align: center;
+}
+
+.reference {
+  text-align: left;
+}
+  .companylogo {
+    float: left;
+    padding-right: 10px;
+  }
+
+.referencename {
+
+  margin-bottom: 3px;
+}
 /*------------------------------------------------------------------
 [6. Index Portfolio]
 -------------------------------------------------------------------*/
 
-.portfoliotitle {
-	text-align: center; 
-	padding-bottom: 15px;
-}
+
 
 .thumb {
   border: 0px;
@@ -641,21 +662,43 @@ footer .linkedin:hover {
   background: #004d28;
   padding-top: 45px;
   padding-bottom: 45px;
-
 }
 
 .portfoliotitle{
   padding: 0px;
   margin-top:0px;
+  text-align: center; 
 }
 
+h3.portfoliocategories {
+
+  font-weight: 500;
+}
+
+.portfoliotitle2 {
+  text-align: center; 
+}
+
+.portfolioitemtext {
+  text-align: center;
+}
 .backbutton{
   text-align: center;
 }
 
 .portfolioitem{
-
   background: white;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.videoborder {
+  font-size: 0;
 }
  
 /*------------------------------------------------------------------
@@ -676,7 +719,22 @@ section.contact .details p.bigger { font-size: 40px; font-weight: 700; margin-to
 .contactform button:hover, .contactform button:focus { border-color: #004d28; }
 .contactform p { text-align: center; }
 
+.error {
+  text-align: center;
+  color: red;
+  margin: auto;
+  display: table;
+}
+
+.success {
+  text-align: center;
+  color: green;
+  margin: auto;
+  display: table;
+}
+
 .form a { color: white; }
+
 
 /*------------------------------------------------------------------
 [9. Vegas Slider]
@@ -767,17 +825,20 @@ input, textarea {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .sectionsplashimage {
-      background: url(../images/splashimage2.jpg) no-repeat center center;
-      background-attachment: scroll;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      min-width: 100%;
+
+    .slider-section {
+      height: 100%;
+      min-height: 400px;
+      width: 100%;
+      position: relative;
+      color: #fff;
+      background: #000000;
     }
+    
   	.skillsimage {
       background-attachment: scroll;
     }}
+
 @media only screen and (max-width: 768px) { .navbar-flat li { display: inline-block; 
   } }
 
@@ -811,24 +872,3 @@ input, textarea {
     left: -10px; 
     right: auto; 
   }
-
-@media screen and (min-width: 1400px) {
-  .indexsignaturecontainer{ 
-  padding-top: 200px;
-  padding-bottom: 200px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .indexsignaturecontainer{ 
-  padding-top: 200px;
-  padding-bottom: 200px;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-   .indexsignaturecontainer{ 
-  padding-top: 250px;
-  padding-bottom: 250px;
-  }
-}

@@ -36,11 +36,12 @@
 					<div class="navbar-collapse collapse">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#welcome" class="scrollto">HOME</a></li>
+								<li class="active"><a href="#promo" class="scrollto">HOME</a></li>
 								<li><a href="#resume" class="scrollto">RESUME</a></li>
 								<li><a href="#about" class="scrollto">ABOUT</a></li>
-								<li><a href="#skills" class="scrollto">SKILLS</a></li>
+								<li><a href="#references" class="scrollto">REFERENCES</a></li>
 								<li><a href="#portfolio" class="scrollto">PORTFOLIO</a></li>
+								<li><a href="#contact" class="scrollto">CONTACT</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -75,13 +76,13 @@
 					<p>I create thoughtful and dynamic designs for my clients </p>
 				</div>
 				<div class="col-xs-12 centered">
-					<p class= "blurb"> My name is Diego Ricaurte, and I am a digital and graphic designer from Ellicott City, Maryland. I am passionate about design that is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously seemed impossible.I thrive on new challenges and have a strong drive and initiative to learn. I love collaborating with others to create quality products, and I take pride in my ability to adapt to any setting with any team. Along with a cup of coffee, I believe a positive attitude and rigorous work ethic can move worlds. 
+					<p class= "blurb"> My name is Diego Ricaurte, and I am a Digital and Graphic Designer from Ellicott City, Maryland. I am passionate about design that is not only pleasing to the eye, but also intuitive to the user. I believe effective design can shed light on solutions that previously seemed impossible. I thrive on new challenges and have a strong drive and initiative to learn. I love collaborating with others to create quality products, and I take pride in my ability to adapt to any setting with any team. Along with a cup of coffee, I believe a positive attitude and rigorous work ethic can move worlds. 
 					</p>
 				</div>
 				<div class="services-inner hidethis col-xs-12 centered">
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="screen"></i></p>
-						<h4>DIGITAL DESIGN</h4>
+						<h4>UX + UI</h4>
 					</div> 
 					<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<p class="icon"><i class="pen"></i></p>
@@ -101,68 +102,68 @@
 	</section>
 	<!--Services Section-->
 	<!--Skills Section-->
-	<section class="skills section colored skillsimage" id="skills">
+	<section class="references section colored skillsimage" id="references">
 		<div class="container">
 			<div class= "row">
 				<div class="divider"></div>
 				<div class="col-xs-10 centered heading">
-					<h2>TECHNICAL SKILLS</h2>
+					<h2>REFERENCES</h2>
 				</div>
 				<!--Skills Items-->
-				<div id="skills-slide">
-					<div class="skill">
-						<span class="chart" data-percent="91">
-							<span class="percent"></span>
-						</span>
-						<h4>PHOTOSHOP</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="95">
-							<span class="percent"></span>
-						</span>
-						<h4>ILLUSTRATOR</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="92">
-							<span class="percent"></span>
-						</span>
-						<h4>INDESIGN</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="85">
-							<span class="percent"></span>
-						</span>
-						<h4>OFFICE</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="80">
-							<span class="percent"></span>
-						</span>
-						<h4>PHOTOGRAPHY</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="85">
-							<span class="percent"></span>
-						</span>
-						<h4>HTML</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="90">
-							<span class="percent"></span>
-						</span>
-						<h4>CSS</h4>
-					</div>
-					<div class="skill">
-						<span class="chart" data-percent="80">
-							<span class="percent"></span>
-						</span>
-						<h4>SKETCH</h4>
-					</div>
+				<div class="col-xs-10 centered">
+					<div id="references-slide">
+					    <div class="item col-xs-10 centered">
+	                        <div class="fionatestimonialphoto"> </div>
+	                        <div class= "testimonialtext">
+					    		<p>"Diego will make a great addition to any organization that is looking for a hard-working individual who doesn’t shy away from any challenge."</p>
+					    	</div>
+					    	<div class="reference">
+					    		<img class="companylogo" src="images/underarmour.svg">
+						    	<h4 class="referencename">Fiona Macaulay</h4>
+		                        <p> Senior Designer - Under Armour </p>
+	                        </div>
+					    </div>
+					    <div class="item col-xs-10 centered">
+	                        <div class="carolinetestimonialphoto"> </div>
+	                        <div class= "testimonialtext">
+					    		<p>"Diego is willing to go above and beyond for his client, which complements his strong work ethic and warm demeanor."</p>
+					    	</div>
+					    	<div class="reference">
+					    		<img class="companylogo" src="images/cnn.svg">
+						    	<h4 class="referencename">Caroline Sommers</h4>
+		                        <p> Producer - CNN International </p>
+	                        </div>
+					    </div>
+					    <div class="item col-xs-10 centered">
+	                        <div class="danielletestimonialphoto"> </div>
+	                        <div class= "testimonialtext">
+					    		<p>"Diego is a talented designer and a good people person. He’s the kind of team member that gets along with everyone."</p>
+					    	</div>
+					    	<div class="reference">
+						    	<img class="companylogo" src="images/feats.svg">
+						    	<h4 class="referencename">Danielle Nekimken</h4>
+		                        <p> Lead Designer - Feats Inc. </p>
+	                        </div>
+					    </div>
+					    <div class="item col-xs-10 centered">
+	                        <div class="damartestimonialphoto"> </div>
+	                        <div class= "testimonialtext">
+					    		<p>"Diego is always willing to take on a challenge and, during his tenure at Under Armour, consistently delivered quality results in short order. "</p>
+					    	</div>
+					    	<div class="reference">
+						    	<img class="companylogo" src="images/underarmour.svg">
+						    	<h4 class="referencename">Damar Fairbanks</h4>
+		                        <p> Designer - Under Armour </p>
+	                        </div>
+					    </div>
+
+				  	</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--Skills Section-->
+
 	<!--Portfolio Section-->
 	<section class="section portfolio" id="portfolio">
 		<div class="container">
@@ -171,7 +172,47 @@
 				<div class="col-xs-10 centered  portfoliotitle">
 					<h2>PORTFOLIO</h2>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="caroline-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/caroline-thumb.png" alt="">						
+							<div class="figcaption">
+								<h5>Caroline Sommers Blog</h5>
+							</div>
+						</div>
+					</a>
+	            </div>
+	            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="superstar-fitness-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/superstar-fitness-thumb.png" alt="">
+							<div class="figcaption">
+								<h5>Tapout: Superstar Fitness</h5>
+							</div>
+						</div>
+					</a>
+	            </div>	
+	            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="the-key-elements-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">					
+							<div class="figcaption">
+								<h5>The Key Elements</h5>
+							</div>
+						</div>
+					</a>
+	            </div> 
+	            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
+	                <a href="gtech-spread.php">
+						<div class="figure cap-bot">
+							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/gtech-thumb.png"  alt="">						
+							<div class="figcaption">
+								<h5>GTech Designs</h5>
+							</div>
+						</div>
+					</a>
+	            </div> 
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="signature-website-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/signature-website-thumb.png" alt="">					
@@ -181,17 +222,7 @@
 						</div>
 					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="the-key-elements-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/the-key-elements-thumb.png" alt="">					
-							<div class="figcaption">
-								<h5>The Key Elements</h5>
-							</div>
-						</div>
-					</a>
-	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="dr-design-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/dr-design-thumb.png" alt="">						
@@ -201,28 +232,7 @@
 						</div>
 					</a>
 	            </div>
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="superstar-fitness-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/superstar-fitness-thumb.png" alt="">
-							<div class="figcaption">
-								<h5>Tapout: Superstar Fitness</h5>
-							</div>
-						</div>
-					</a>
-	            </div>
-	            
-	            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
-	                <a href="gtech-designs-spread.php">
-						<div class="figure cap-bot">
-							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/gtech-thumb.png"  alt="">						
-							<div class="figcaption">
-								<h5>GTech Designs</h5>
-							</div>
-						</div>
-					</a>
-	            </div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="agv-sport-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/agv-sport-thumb.png" alt="">						
@@ -232,7 +242,7 @@
 						</div>
 					</a>
 	            </div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="wake-will-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/wake-will-thumb.png" alt="">						
@@ -241,8 +251,8 @@
 							</div>
 						</div>
 					</a>
-	            </div>	            
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 thumb">
+	            </div>
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 thumb">
 	                <a href="photography-spread.php">
 						<div class="figure cap-bot">
 							<img class="thumbimage img-responsive centered" src="images/portfolio-thumbs/photography-thumb.png" alt="">					
@@ -254,10 +264,11 @@
 	            </div>    
 		    </div>
 	    </div>
-    </section> 
+	</section> 
+    
     <!-- End of Portfolio Section -->
     <!--Contact Section-->
-	<!-- <section class="contact section" id="contact">
+	<section class="contact section" id="contact">
 		<div class="container">
 			<div class="divider"></div>
 			<div class="heading">
@@ -265,18 +276,28 @@
 			</div>
 			<div class="form">
 				<div class="col-xs-12 col-sm-9 col-md-9 centered">
-					<form action="send.php" onSubmit="return false;" id="xhr" method="post" name="contactform" class="contactform">
-						<input type="hidden" value="contact" name="type">
-						<input name="send[name]" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." data-validation="required">
-						<input name="send[email]" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 no-margin" placeholder="Your email..." data-validation="email">
-						<textarea name="send[message]" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..." data-validation="required"></textarea>
-						<p><button class="submit sendcontact">SEND MESSAGE</button></p>
+
+					<?php include 'validation.php';?>
+
+					<form method="post" action="index.php#contact" class="contactform">
+
+						<input class="input col-xs-12 col-sm-6 col-md-6 col-lg-6" type="text" name="name" placeholder="Your name...">
+
+						<input class="input col-xs-12 col-sm-6 col-md-6 col-lg-6 no-margin" type="text" name="email" placeholder="Your email...">
+
+						<textarea name="message" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
+
+						<p><button class="submit sendcontact" type="submit" name="submit" value="Submit">SEND MESSAGE</button></p>
+						
+						<span class="error"><?php echo $nameError;?></span> 
+						<span class="error"><?php echo $emailError;?></span> 
+						<span class="error"><?php echo $messageError;?></span> 
+						<span class="success"><?php echo $successMessage;?></span> 
 					</form>
-					<p class="error"></p>
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 	<!--Contact Section-->
 	<!--Footer Section-->
 	<footer class="section">
@@ -288,9 +309,9 @@
 	            <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/diego-ricaurte-91b41563/"></a></li>
 	            <li><a target="_blank" class="instagram" href="https://www.instagram.com/daricaurte/"></a></li>
 	            <li><a target="_blank" class="pinterest" href="https://www.pinterest.com/daricaurte/pins/"></a></li>
-	            <li><a target="_blank" class="behance" href="https://www.behance.net/diegoricaurte"></a></li>
-	          </ul>
-	          <p>&copy; 2016 diegoricaurte.website</p>
+<!-- 	            <li><a target="_blank" class="behance" href="https://www.behance.net/diegoricaurte"></a></li>
+ -->	          </ul>
+	          <p>&copy; 2017 diegoricaurte.website</p>
 	        </div>
 	    </div>
 	  </div>
