@@ -65,6 +65,9 @@
           <h3 class="portfoliotitle2"> Solution </h3>
           <p class="portfolioitemtext"> My concept expansion builds upon the current website structure, and expands upon the current brand style. Each month the user is presented with four different superstars. Each superstar has a personalized fitness page, where the user can follow their daily routines, and a weekly vlog for a more dynamic view into the fitness program. Through desktop and mobile interfaces, Superstar Fitness allows any fan to see exactly how their favorite superstar is maintaining their workout regimen, and encourages them to follow along in their footsteps, day by day. </p>
       </div>
+      <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
+        </div>
       <div class= "col-xs-8 centered videoborder">
           <video img-responsive autoplay loop>
             <source src="images/animations/superstar-fitness-desktop.mp4" type="video/mp4">

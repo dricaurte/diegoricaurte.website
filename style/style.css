@@ -6,7 +6,7 @@ Darker Green: #00331a;
 Dark Grey: #363b3f;
 Darker Grey: #b6b7b7;
 Social Buttons: #444749;
-Off-white: #f7f8f8;
+Off-white: #f2f2f2;
 White: #ffffff;
 Black: #000000;
 -------------------------------------------------------------------*/
@@ -24,12 +24,13 @@ Black: #000000;
 -------------------------------------------------------------------*/
 
 html, body { 
-  background: #f7f8f8; 
+  background: #f2f2f2; 
   height: 100%;
+  font-size:15px;
 }
 
 .section { 
-  padding: 60px 0 75px 0px; 
+  padding: 75px 0 75px 0px; 
 }
 
 .section h1, .section h2, .section h3, .section h4 {
@@ -47,14 +48,19 @@ html, body {
 
 .section .heading { 
   text-align: center; 
-  padding-bottom: 20px; 
+  margin-bottom: 30px;
+}
+
+.firstSec .heading {
+  margin-bottom: 0px;
+
 }
 
 .section .profilePic { 
   text-align: center; 
   margin: 0 auto; 
   float: none; 
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .section .divider { 
@@ -75,17 +81,17 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
 .btn, .filter a { 
   font-family: "Lato", sans-serif; 
   font-weight: 400; 
-  font-size: 14px; 
+  font-size: 15px; 
   text-decoration: none; 
   background: white; 
   color: #b6b7b7; 
   border: 1px solid #b6b7b7; 
   padding: 18px; 
-  -webkit-transition: all 0.3s ease-in, 0s; 
-  -moz-transition: all 0.3s ease-in, 0s; 
-  -o-transition: all 0.3s ease-in, 0s; 
-  -ms-transition: all 0.3s ease-in, 0s; 
-  transition: all 0.3s ease-in, 0s; 
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 .btn:hover, .btn:focus { 
@@ -97,22 +103,22 @@ section.colored h1, section.colored h2, section.colored h3, section.colored h4, 
 .borderBtn, .contactform button { 
   font-family: "Lato", sans-serif; 
   font-weight: 700; 
-  font-size: 14px; 
+  font-size: 15px; 
   text-decoration: none; 
   color: white; 
   border: 1px solid white; 
-  padding: 18px 50px 18px 50px; 
+  padding: 15px 45px 15px 45px; 
   display: inline-block; 
-  -webkit-border-radius: 3px; 
-  -moz-border-radius: 3px; 
-  -ms-border-radius: 3px; 
-  -o-border-radius: 3px; 
-  border-radius: 3px; 
-  -webkit-transition: all 0.3s ease-in, 0s; 
-  -moz-transition: all 0.3s ease-in, 0s; 
-  -o-transition: all 0.3s ease-in, 0s; 
-  -ms-transition: all 0.3s ease-in, 0s; 
-  transition: all 0.3s ease-in, 0s; 
+  -webkit-border-radius: 0px; 
+  -moz-border-radius: 0px; 
+  -ms-border-radius: 0px; 
+  -o-border-radius: 0px; 
+  border-radius: 0px; 
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 .borderBtn:hover, .contactform button:hover, .borderBtn:focus, .contactform button:focus { 
@@ -146,32 +152,22 @@ section .centered {
 
 h1, h2, h3, h4 {
 
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 38px;
 }
 
 p {
 
-	margin: 0 0 20px;
+	margin: 0 0 15px;
 }
 
 /*------------------------------------------------------------------
 [1. Welcome]
 -------------------------------------------------------------------*/
-
-.indexsignaturecontainer{ 
-  padding-top: 135px;
-  padding-bottom: 135px;
-  text-align: center;
-  color: #f8f8f8;
-  }
-
-.indexsignature{
-  display:block;
-  max-width: 500px;
-  max-height: 200px;
-  margin-bottom: 30px;
-}
 
 .splashportfoliolink{
   padding-top: 30px;
@@ -183,26 +179,19 @@ p {
 }
 .slider-section {
   height: 100%;
-  min-height: 660px;
+  min-height: 618px;
   width: 100%;
   position: relative;
   color: #fff;
   background: #000000;
 }
 
-.logo-holder {
-  background-image: url('../images/signature.svg');
-  height: 200px;
-  text-align: center;
-  background-color: transparent;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-top: 0;
-  margin-bottom: 0px;
-  text-indent: -9999px;
-  overflow: hidden;
+.splashsignature {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 /*------------------------------------------------------------------
 [2. Navbar]
 -------------------------------------------------------------------*/
@@ -248,12 +237,12 @@ border-radius: 0px;
 .navbar-flat a { 
   font-family: "Lato", sans-serif; 
   font-weight: 700; 
-  color: #f7f8f8; 
-  -webkit-transition: all 0.3s ease-in, 1s; 
-  -moz-transition: all 0.3s ease-in, 1s; 
-  -o-transition: all 0.3s ease-in, 1s; 
-  -ms-transition: all 0.3s ease-in, 1s; 
-  transition: all 0.3s ease-in, 1s; 
+  color: #f2f2f2; 
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 .navbar-flat .navbar-brand { 
@@ -269,39 +258,35 @@ border-radius: 0px;
   color: white; 
 }
 
-.title{ padding-bottom: 10px; }
+.title{ padding-bottom: 15px; }
 
 .blurb {
   text-align: center;
 }
 
 .hero .borderBtn { 
-  margin-top: 20px; 
+  margin-top: 15px; 
 }
 
 .about h3 { 
-  color: #f7f8f8 !important; 
+  color: #f2f2f2 !important; 
 }
 
 .firstSec { 
-  padding-top: 45px; 
+  padding-top: 60px; 
 }
 
 .firstSec.fixed { 
-  padding-top: 95px; 
+  padding-top: 110px; 
 }
 
 .services .services-inner {
   margin-top: 0px; 
-  -webkit-transition: all 0.3s ease-in, 0s; 
-  -moz-transition: all 0.3s ease-in, 0s; 
-  -o-transition: all 0.3s ease-in, 0s; 
-  -ms-transition: all 0.3s ease-in, 0s; 
-  transition: all 0.3s ease-in, 0s; 
-}
-
-.services .heading {
-  padding:0px;
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 .service { 
@@ -311,20 +296,20 @@ border-radius: 0px;
   text-align: center; 
   color: #004d28; 
   margin-left: -1px; 
-  -webkit-transition: all 0.3s ease-in, 1s; 
-  -moz-transition: all 0.3s ease-in, 1s; 
-  -o-transition: all 0.3s ease-in, 1s; 
-  -ms-transition: all 0.3s ease-in, 1s; 
-  transition: all 0.3s ease-in, 1s; 
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 .service h4 { 
   color: black; 
-  -webkit-transition: all 0.3s ease-in, 0s; 
-  -moz-transition: all 0.3s ease-in, 0s; 
-  -o-transition: all 0.3s ease-in, 0s; 
-  -ms-transition: all 0.3s ease-in, 0s; 
-  transition: all 0.3s ease-in, 0s; 
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 .service i { 
@@ -333,11 +318,11 @@ border-radius: 0px;
   margin: 0 auto; 
   display: block; 
   background: url(../images/icons.svg) no-repeat; 
-  -webkit-transition: all 0.3s ease-in, 0s; 
-  -moz-transition: all 0.3s ease-in, 0s; 
-  -o-transition: all 0.3s ease-in, 0s; 
-  -ms-transition: all 0.3s ease-in, 0s; 
-  transition: all 0.3s ease-in, 0s; 
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 .service .screen { 
@@ -414,7 +399,7 @@ section.references {
 }
 
 .testimonialtext p{
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .carolinetestimonialphoto {
@@ -475,7 +460,9 @@ section.references {
 [6. Index Portfolio]
 -------------------------------------------------------------------*/
 
-
+section.portfolio {
+  background-color: white;
+}
 
 .thumb {
   border: 0px;
@@ -503,9 +490,9 @@ section.references {
   color: white;
   padding: 10px 20px;
   opacity: 0;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition:    all 0.6s ease;
-  -o-transition:      all 0.6s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition:    all 0.5s ease;
+  -o-transition:      all 0.5s ease;
 }
 
 .figure:hover .figcaption {
@@ -526,7 +513,7 @@ section.references {
   text-align: center;
   font-size: 14px;
   line-height: 24px;
-  -moz-transition: all 0.6s ease;
+  -moz-transition: all 0.5s ease;
   opacity: 0.75;
 }
 
@@ -589,16 +576,16 @@ footer li a { display: block;
   text-decoration: none; 
   border-bottom: none; 
   padding: 18px; 
-  -webkit-border-radius: 3px; 
-  -moz-border-radius: 3px; 
-  -ms-border-radius: 3px; 
-  -o-border-radius: 3px; 
-  border-radius: 3px; 
-  -webkit-transition: all 0.3s ease-in, 1s; 
-  -moz-transition: all 0.3s ease-in, 1s; 
-  -o-transition: all 0.3s ease-in, 1s; 
-  -ms-transition: all 0.3s ease-in, 1s; 
-  transition: all 0.3s ease-in, 1s; 
+  -webkit-border-radius: 0px; 
+  -moz-border-radius: 0px; 
+  -ms-border-radius: 0px; 
+  -o-border-radius: 0px; 
+  border-radius: 0px; 
+  -webkit-transition: all 0.5s ease-in, 0.5s; 
+  -moz-transition: all 0.5s ease-in, 0.5s; 
+  -o-transition: all 0.5s ease-in, 0.5s; 
+  -ms-transition: all 0.5s ease-in, 0.5s; 
+  transition: all 0.5s ease-in, 0.5s; 
 }
 
 footer .facebook { 
@@ -677,11 +664,14 @@ h3.portfoliocategories {
 
 .portfoliotitle2 {
   text-align: center; 
+  margin-top: 0px;
 }
 
 .portfolioitemtext {
   text-align: center;
+  margin-bottom: 0px;
 }
+
 .backbutton{
   text-align: center;
 }
@@ -700,13 +690,17 @@ video {
 .videoborder {
   font-size: 0;
 }
+
+.bumper {
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
  
 /*------------------------------------------------------------------
 [7. Contact]
 -------------------------------------------------------------------*/
-section.contact{
-  background-color:white;
-}
+
 section.contact .details { text-align: center; padding: 0 0 30px 0px; }
 section.contact .details p { font-family: "Lato", sans-serif; font-size: 30px; font-weight: 300; }
 section.contact .details p.bigger { font-size: 40px; font-weight: 700; margin-top: 20px; }
@@ -785,11 +779,11 @@ input, textarea {
   -o-animation-fill-mode: both; 
   animation-fill-mode: both; 
   -moz-animation-timing-function: ease-in-out; 
-  -webkit-animation-duration: 1s; 
-  -moz-animation-duration: 1s; 
-  -ms-animation-duration: 1s; 
-  -o-animation-duration: 1s; 
-  animation-duration: 1s; 
+  -webkit-animation-duration: 0.5s; 
+  -moz-animation-duration: 0.5s; 
+  -ms-animation-duration: 0.5s; 
+  -o-animation-duration: 0.5s; 
+  animation-duration: 0.5s; 
 }
 
 @-webkit-keyframes fadeInUp { 0% { opacity: 0; 

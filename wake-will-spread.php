@@ -55,14 +55,14 @@
         </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Process </h3>
-          <p class="portfolioitemtext"> My design process began with wire frame sketches of the interactive stations. This allowed me to get a better sense of a layout for these interactive pieces, and how to incorporate the Wake Forest branding into my design. This incorporation was crucial in engaging the target audience of the Wake Forest Alumni.</p>
+          <p class="portfolioitemtext"> My design process began with wire frame sketches of the interactive stations. This allowed me to get a better sense of a layout for these interactive pieces, and how to incorporate the Wake Forest branding into my design. This incorporation was crucial in presenting a familiar and trusted brand to the target audience of the Wake Forest Alumni.</p>
         </div>
         <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/wake-spread3.png" title= "Wake Will Spread3" alt= "wakewill3">
         </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Solution </h3>
-          <p class="portfolioitemtext"> The interactive stations focused on user interactivity. The Wake Will Book invites Alumni to share Wake Forest's impact on their lives. The rotating cube's displays achievements of current Wake Undergraduates, allowing alumni to explore different students with each side of the cube. By encouraging Alumni to learn more about the current Wake Forest population, as well as reminisce their own history with the institution, the two stations incite action in the Alumni and fostered a greater pride in their alma mater.</p>
+          <p class="portfolioitemtext"> The interactive stations focused on user interactivity. The Wake Will Book invites Alumni to share Wake Forest's impact on their lives. The rotating cube's displays achievements of current Wake Undergraduates, allowing alumni to explore different students with each side of the cube. By encouraging Alumni to learn more about the current Wake Forest population, as well as reminisce their own history with the institution, the two stations help to inspire Alumni and foster a greater pride in their alma mater.</p>
         </div>
         <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/wake-spread4.png" title= "Wake Will Spread4" alt= "wakewill4">

@@ -48,16 +48,19 @@
             <source src="images/animations/ke-header.mp4" type="video/mp4">
           </video>
         </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
+        </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Objective </h3>
-          <p class="portfolioitemtext"> My primary objective in working with The Key Element's A Cappella group was a branding overhaul that would appeal to the majority the Cornell student population. To accomplish this goal, I decided to conceptualize, design, and code a new website for the group. This re vamped media would facilitate a renewed impression on the Cornell population in order to and maximize audition and concert attendance. </p>
+          <p class="portfolioitemtext"> My primary objective in working with The Key Element's A Cappella group was a branding overhaul that would appeal to a greater majority the Cornell student population. To accomplish this goal, I decided to conceptualize, design, and code a new website for the group. This re-vamped media would facilitate a renewed impression on the Cornell population in order to and maximize audition and concert attendance. </p>
         </div>
        <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/ke-spread1.png" title= "The Key Elements Spread1" alt= "thekeyelements1">
         </div> 
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Process </h3>
-          <p class="portfolioitemtext"> I began the design process by creating a few user personas of the most common types of people that visit The Key Element Website. While the main focus would be on the Cornell population, as this is the bulk of concert and audition attendance, I also considered the extraneous users such as parents of group members and members of the the singing community outside of Cornell. I also developed low fidelity sketches of the new website layout, not only to make sure I constructed a logical hierarchy of information and website features, but also to present to run by the current members of my former singing group - my clients for this assignment. <br><br>
+          <p class="portfolioitemtext"> I began the design process by creating a few user personas of the most common types of people that visit The Key Element Website. While the main focus would be on the Cornell population, as this is the bulk of concert and audition attendance, I also considered the extraneous users such as parents of group members and members of the the singing community outside of Cornell. From there, I developed low fidelity sketches of the new website layout, not only to make sure I constructed a logical hierarchy of information and website features, but also to present to the current members of my former singing group - my clients for this assignment. <br><br>
 
           Through this process, I concluded that the website would have a wide appeal and utilize a brand that is attractive to all viewers, regardless of music preference or gender. The new website needed to be desktop and mobile friendly, as well as give easy access to the groups music, events, personality, merchandise, and contact information. Lastly, this renewed visual identity had to set the Key Elements apart from any of the other 20+ singing groups on campus </p>
         </div>
@@ -68,7 +71,10 @@
           <h3 class="portfoliotitle2"> Solution </h3>
           <p class="portfolioitemtext"> The newly designed logo maintains the core 'bolt' motif of the previous Key Elements branding, and adds a musical component in the form of a microphone, in order to stay true to the nature of the group. The custom built site utilizes a simple scroll-through structure, and navigates the user through the groups member information, music, merchandise. Widgets and links throughout the site guide the user to various social media and music platforms that the group utilizes, allowing for easy access to various promotional content. <br><br>
 
-          The site prioritizes event information near the top of the page, so that any concert goers or auditionees (our most important users) cant find the information they need in a timely fashion. The overall tone of the website is neutral and people-focused, allowing the personality of the group to shine through, and creates a genuine user experience of The Key Elements A Cappella. </p>
+          The site prioritizes event information near the top of the page, so that any concert goers or auditionees (our most important users) cant find the information they need in a timely fashion. The overall tone of the website is color neutral and people-focused, allowing the personality of the group to shine through, and creates a genuine user experience of The Key Elements A Cappella. </p>
+        </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
         </div>
         <div class= "col-xs-8 centered videoborder">
           <video img-responsive autoplay loop>
@@ -83,10 +89,16 @@
             <source src="images/animations/ke-mobile.mp4" type="video/mp4">
           </video>
         </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
+        </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Reflection </h3>
-          <p class="portfolioitemtext"> In accepting a project for a group that I have close personal times with, I created a number of unique challenges outright. I have found that it is an important skill to remain impartial and emotionally untied to your design choices in favor or being flexible and willing to react to different directions. This brand that I felt so strongly about made such a task all the more difficult. But in the end, it led me to realize that no matter the emotional connection, the satisfaction of the user remains paramount.</p>
-      </div></p>
+          <p class="portfolioitemtext"> In accepting a project for a group that I have close personal ties with, I created a number of unique challenges outright. I have found that it is an important skill to remain impartial and emotionally unattached to your design choices in favor or being flexible and willing to pivot in different directions. This brand that I felt so strongly about made such a task all the more difficult. In the end, however, this challenge led me to realize that no matter the emotional connection to design, the satisfaction of the user remains paramount.</p>
+      </div>
+      <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
+        </div>
       </div>
         <div class= "col-xs-8 centered videoborder">
           <video img-responsive autoplay loop>

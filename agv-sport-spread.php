@@ -20,7 +20,7 @@
             <nav>
               <ul class="nav navbar-nav">
                 <!--Nav Menu-->
-                <li><a href="dr-design-spread.php">PREV</a></li>
+                <li><a href="signature-website-spread.php">PREV</a></li>
                 <li><a href="index.php#portfolio">HOME</a></li>
                 <li><a href="wake-will-spread.php">NEXT</a></li>
                 <!--Nav Menu-->
@@ -71,9 +71,12 @@
             <source src="images/animations/agv-icons.mp4" type="video/mp4">
           </video>
         </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
+        </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Reflection </h3>
-          <p class="portfolioitemtext"> In designing the hang tags for AGV Sport, I learned the value of versatility in design. While there were many design solutions to this problem, the versatility of the icon system allowed for the simplest solution that created a more recognizable brand image.</p>
+          <p class="portfolioitemtext"> In designing the hang tags for AGV Sport, I learned the value of versatility in design solutions. While there were many approaches to this problem, the flexibility of the icon system allowed for the simplest solution that created a more recognizable and consistent brand image.</p>
         </div>
         <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/agv-spread5.png" title= "AGV Sport Spread5" alt= "agvsporttags5">

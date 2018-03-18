@@ -47,6 +47,9 @@
             <source src="images/animations/drdesign-header.mp4" type="video/mp4">
           </video>
         </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
+        </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Objective </h3>
           <p class="portfolioitemtext"> DR Design is the first iteration of my design brand. The objective of this project was to create a portfolio that would appeal to employers, and ultimately help me obtain an internship. To accomplish this, I needed to create a simple, modern, and user friendly experience with a focus on the design portfolio. </p>
@@ -63,7 +66,10 @@
         </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Solution </h3>
-          <p class="portfolioitemtext"> The resulting hand-coded website utilizes a grid layout with a simple page structure consisting of a landing page that links to each individual portfolio piece, as well as a resume. The color palette consists of different shades of digital blue, with a brighter shade highlighting user focus. Personalized icons are used throughout the site in order to create a unique style that is simple enough not to detract from the variety of styles presented on the portfolio pages. </p>
+          <p class="portfolioitemtext"> The resulting hand-coded website utilizes a grid layout with a simple page structure consisting of a landing page that links to each individual portfolio piece, as well as a resume. The color palette consists of different shades of digital blue, with a neon shade highlighting user focus. Personalized icons are used throughout the site in order to create a unique style that is simple enough not to detract from the variety of styles presented on the portfolio pages. </p>
+        </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
         </div>
         <div class= "col-xs-8 centered videoborder">
           <video img-responsive autoplay loop>
@@ -76,6 +82,9 @@
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Reflection </h3>
           <p class="portfolioitemtext"> In designing the first iteration of my portfolio, I was forced to design to a perspective completely separate from my own. Although at the time of this process I did not know of practices such as of user empathy maps, this project exercised my mind in the same way and helped me to become a more user centric designer.</p>
+        </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
         </div>
         <div class= "col-xs-8 centered videoborder">
           <video img-responsive autoplay loop>

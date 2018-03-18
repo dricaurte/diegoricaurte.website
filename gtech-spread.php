@@ -54,14 +54,14 @@
         </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Process </h3>
-          <p class="portfolioitemtext"> The design process began with low fidelity wire frames of the sections that would be make up the digital and print materials. I also developed a user persona that illustrated the primary clientele of Gtech, and in turn the audience of the new collateral. The brand identity needed to seamlessly transition between print and web materials, creating a uniform experience for the user. Any design choice for one platform would have to consider the compatibility with the other, and allow for potential clients to get a sense of GTech's capabilities no matter the entry point. With that in mind, I organized the information in a grid style that would translate well to print as well as digital format. </p>
+          <p class="portfolioitemtext"> The design process began with low fidelity wire frames of the sections that would be make up the digital and print materials. I also developed a user persona that illustrated the primary clientele of Gtech, and in turn the audience of the new collateral. The brand identity needed to seamlessly transition between print and web materials, creating a uniform experience for the user regardless of the entry point. With that in mind, I organized the information in a grid style that would translate well to print as well as digital format. </p>
         </div>
         <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/gtech-spread3.png" title= "Gtech Designs Spread 3" alt= "gtech3">
         </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Solution </h3>
-          <p class="portfolioitemtext"> The resulting print and web design allows for and clear and clean user journey throughout the new collateral. My re-branding image expanded on the purple logo of GTech Designs, using the same hue to accent the websites focal points. The print pamphlet guides the user through an introduction to Gtech's brand and mission, followed by their design approach as how potential clients can get in contact. The website follows a similar hierarchy, and expands on the pamphlet materials by providing examples of GTech's past successful projects. Together, the site and print materials serve as an example for what GTech can accomplish for its clients; a clean, modern, and story driven design style that is clean enough to be credible, but personal enough to be trusted. </p>
+          <p class="portfolioitemtext"> The resulting print and web design allows for and clear and clean user journey throughout the new collateral. My re-branding image expanded on the purple logo of GTech Designs, using the same hue to accent the websites focal points. The print pamphlet guides the user through an introduction to Gtech's brand and mission, followed by their design approach as how potential clients can get in contact. The website follows a similar hierarchy, and expands on the pamphlet materials by providing examples of GTech's past successful projects. Together, the site and print materials serve as an example for what GTech can accomplish for its clients; a clean, modern, and story driven design style that is clean and professions, but also with a personal touch that can be trusted. </p>
         </div>
         <div class= "col-xs-8 centered">
           <img class= "portfoliopicture" src="images/portfolio-spreads/gtech-spread4.png" title= "Gtech Designs Spread 4" alt= "gtech4">
@@ -78,6 +78,9 @@
           <video img-responsive autoplay loop>
             <source src="images/animations/gtech-mobile.mp4" type="video/mp4">
           </video>
+        </div>
+        <div class= "col-xs-8 centered bumper">
+          <img class= "portfoliopicture" src="images/portfolio-spreads/bumper.png" title= "Caroline Spread3" alt= "carolinespread3">
         </div>
         <div class= "col-xs-8 centered">
           <h3 class="portfoliotitle2"> Reflection </h3>
